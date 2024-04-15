@@ -65,8 +65,8 @@ def main():
         for p in ps:
             pluginsDataRaw.append(p)
 
-    print(pluginsDataRaw)
-    print("\n")
+    # print(pluginsDataRaw)
+    # print("\n")
 
     pluginsDataMerged = []
     for n in pluginsDataRaw:
@@ -88,7 +88,7 @@ def main():
         if not nextNew:
             pluginsDataMerged.append(n)
 
-    print(pluginsDataMerged)
+    # print(pluginsDataMerged)
 
     with open("plugins.json", "w", encoding="utf-8") as file:
         json.dump(pluginsDataMerged, file, ensure_ascii=False)#, indent=4)
