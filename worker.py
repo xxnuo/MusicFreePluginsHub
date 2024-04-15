@@ -89,9 +89,10 @@ def main():
             pluginsDataMerged.append(n)
 
     # print(pluginsDataMerged)
+    resultData = {"plugins": pluginsDataMerged}
 
     with open("plugins.json", "w", encoding="utf-8") as file:
-        json.dump(pluginsDataMerged, file, ensure_ascii=False)#, indent=4)
+        json.dump(resultData, file, ensure_ascii=False)  # , indent=4)
 
 
 if __name__ == "__main__":
