@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'  # 选择你想要的 Python 版本
 
       - name: Install Dependencies
-        run: pip install requests  # 安装 requests 库
+        run: pip install packaging requests  # 安装 requests 库
 
       - name: Run Python Script
         run: python worker.py
