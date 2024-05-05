@@ -23,11 +23,20 @@ jobs:
 
       - name: Run Python Script
         run: python worker.py
-
-      - name: Commit Changes
+        
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet plugins.json || echo "changed=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add plugins.json
           git commit -m "Update plugins.json"
-          git push
+      
+      - name: Push
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: git push
