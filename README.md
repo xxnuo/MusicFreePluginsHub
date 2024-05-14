@@ -1,6 +1,6 @@
 # MusicFreePluginsHub
 
-自用 MusicFree 插件订阅聚合器 - 每天更新
+自用 MusicFree 插件订阅聚合器 - Github Actions 每天自动检测同步上游更新
 
 ## 懒人订阅链接：
 
