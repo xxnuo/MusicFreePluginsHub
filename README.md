@@ -1,21 +1,21 @@
 # MusicFreePluginsHub
 
-自用 MusicFree 插件订阅聚合器 - Github Actions 每天自动检测同步上游更新
+A personal MusicFree plugin subscription aggregator - Github Actions automatically detects and synchronizes updates daily.
 
-## 懒人订阅链接：
+## Lazy Subscriber Link:
 
-国内：
+Behind the wall:
 
 https://musicfreepluginshub.2020818.xyz/plugins.json
 
-国外：
+International:
 
 https://musicfreepluginshub.pages.dev/plugins.json
 
-## 自行部署
+## Self-Deployment
 
-fork 后 enable actions，设置仓库的 Action 菜单中的 Workflow permissions 为 Read and write，Actions 可手动触发、自动在 UTC 20:00 执行，生成 plugins.json。
+After forking and enabling actions, set the Workflow permissions in the Action menu of the repository to Read and write. Actions can be triggered manually or automatically execute at UTC 20:00, generating a plugins.json file.
 
-自行获取自己可访问的 plugins.json 直链地址即可使用。
+Obtain the direct link to your own accessible plugins.json to use.
 
-懒人链接是通过 cloudflare pages 部署的，你也可以在类似的 vercel、GitHub Pages、Netlify 等平台上部署直链并通过绑定自定义域名以便墙内访问。
+The lazy link is deployed through Cloudflare Pages. You can also deploy direct links on similar platforms like Vercel, GitHub Pages, Netlify, etc., and bind a custom domain for access within the wall.
