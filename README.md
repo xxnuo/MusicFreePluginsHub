@@ -1,3 +1,5 @@
+The plugins in this repository are merely examples, sourced from publicly available interfaces on the internet, and have been filtered to exclude all VIP/paid/trial songs. They are provided for learning and reference purposes only. Please do not use them for any commercial purposes and ensure their use is reasonable and lawful.
+
 # MusicFreePluginsHub
 
 A personal MusicFree plugin subscription aggregator - Github Actions automatically detects and synchronizes updates daily.
