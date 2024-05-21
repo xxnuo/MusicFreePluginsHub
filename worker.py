@@ -89,6 +89,13 @@ def main():
             pluginsDataMerged.append(n)
 
     # print(pluginsDataMerged)
+    pluginsDataMerged.append(
+        {
+            "name": "云电台",
+            "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
+            "version": "0.0.0",
+        },
+    )
     resultData = {"plugins": pluginsDataMerged}
 
     with open("plugins.json", "w", encoding="utf-8") as file:
