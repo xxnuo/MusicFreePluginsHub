@@ -37,10 +37,19 @@ def download_file(url):
         return {}  # 在失败时返回一个空字典，这里应直接返回空字典，不需要调用 .json()
 
 
+def is_version_smaller(ver_str, target_ver_str):
+    try:
+        ver = version.parse(ver_str)
+        target_ver = version.parse(target_ver_str)
+        return ver < target_ver
+    except:
+        return True
+
+
 def main():
     """主函数"""
     # 读取 JSON 文件
-    with open("subscriptions.json", "r") as file:
+    with open("subscriptions.json", "r", encoding="utf-8") as file:
         data = json.load(file)
         subscriptions = data["subscriptions"]
 
@@ -72,6 +81,9 @@ def main():
     for n in pluginsDataRaw:
         nextNew = False
 
+        if is_version_smaller(n["version"], "0.0.1"):
+            n["version"] = "0.0.1"
+
         for o in pluginsDataMerged:
             if nextNew:
                 nextNew = False
@@ -81,7 +93,7 @@ def main():
                 nextNew = True
                 if n["url"] == o["url"]:
                     break
-                if version.parse(n["version"]) > version.parse(o["version"]):
+                if is_version_smaller(o["version"], n["version"]):
                     o["url"] = n["url"]
                     o["version"] = n["version"]
 
@@ -89,17 +101,15 @@ def main():
             pluginsDataMerged.append(n)
 
     # print(pluginsDataMerged)
-    pluginsDataMerged.append(
-        {
-            "name": "云电台",
-            "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
-            "version": "0.0.0",
-        },
-    )
+    with open("extras.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+        extras = data["extras"]
+        for extra in extras:
+            pluginsDataMerged.append(extra)
     resultData = {"plugins": pluginsDataMerged}
 
     with open("plugins.json", "w", encoding="utf-8") as file:
-        json.dump(resultData, file, ensure_ascii=False)  # , indent=4)
+        json.dump(resultData, file, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
