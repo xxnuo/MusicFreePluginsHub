@@ -1,6 +1,6 @@
 import json
 import requests
-from packaging import version
+# from packaging import version
 
 DEBUG = False
 
@@ -37,13 +37,13 @@ def download_file(url):
         return {}  # 在失败时返回一个空字典，这里应直接返回空字典，不需要调用 .json()
 
 
-def is_version_smaller(ver_str, target_ver_str):
-    try:
-        ver = version.parse(ver_str)
-        target_ver = version.parse(target_ver_str)
-        return ver < target_ver
-    except:
-        return True
+# def is_version_smaller(ver_str, target_ver_str):
+#     try:
+#         ver = version.parse(ver_str)
+#         target_ver = version.parse(target_ver_str)
+#         return ver < target_ver
+#     except:
+#         return True
 
 
 def merge_json(json1, json2):
@@ -103,7 +103,7 @@ def main():
         data = json.load(file)
         extras = data["extras"]
         for extra in extras:
-            pluginsDataMerged.append(extra)
+            pluginsDataMerged.extend(extra)
     resultData = {"plugins": pluginsDataMerged}
 
     with open("plugins.json", "w", encoding="utf-8") as file:
