@@ -46,6 +46,26 @@ def is_version_smaller(ver_str, target_ver_str):
         return True
 
 
+def merge_json(json1, json2):
+    """
+    将 json2 的内容覆盖合并到 json1 中
+    """
+    if isinstance(json1, dict) and isinstance(json2, dict):
+        for key in json2:
+            if key in json1:
+                json1[key] = merge_json(json1[key], json2[key])
+            else:
+                json1[key] = json2[key]
+        return json1
+    elif isinstance(json1, list) and isinstance(json2, list):
+        # 如果需要合并列表，可以根据具体需求实现
+        # 这里简单地将 json2 追加到 json1 后面
+        json1.extend(json2)
+        return json1
+    else:
+        return json2
+
+
 def main():
     """主函数"""
     # 读取 JSON 文件
@@ -74,31 +94,9 @@ def main():
         for p in ps:
             pluginsDataRaw.append(p)
 
-    # print(pluginsDataRaw)
-    # print("\n")
-
     pluginsDataMerged = []
-    for n in pluginsDataRaw:
-        nextNew = False
-
-        if is_version_smaller(n["version"], "0.0.1"):
-            n["version"] = "0.0.1"
-
-        for o in pluginsDataMerged:
-            if nextNew:
-                nextNew = False
-                break
-
-            if n["name"] == o["name"]:
-                nextNew = True
-                if n["url"] == o["url"]:
-                    break
-                if is_version_smaller(o["version"], n["version"]):
-                    o["url"] = n["url"]
-                    o["version"] = n["version"]
-
-        if not nextNew:
-            pluginsDataMerged.append(n)
+    for i in pluginsDataRaw:
+        pluginsDataMerged = merge_json(pluginsDataMerged, i)
 
     # print(pluginsDataMerged)
     with open("extras.json", "r", encoding="utf-8") as file:
