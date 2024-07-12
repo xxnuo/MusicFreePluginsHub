@@ -1,5 +1,6 @@
 import json
 import requests
+
 # from packaging import version
 
 DEBUG = False
@@ -103,7 +104,7 @@ def main():
         data = json.load(file)
         extras = data["extras"]
         for extra in extras:
-            pluginsDataMerged.extend(extra)
+            pluginsDataMerged.update(extra)
     resultData = {"plugins": pluginsDataMerged}
 
     with open("plugins.json", "w", encoding="utf-8") as file:
