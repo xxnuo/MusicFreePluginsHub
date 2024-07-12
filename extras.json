@@ -1,5 +1,5 @@
 {
-  "extras": [
+  "plugins": [
     {
       "name": "云电台",
       "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",

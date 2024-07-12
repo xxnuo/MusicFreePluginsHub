@@ -100,11 +100,11 @@ def main():
         pluginsDataMerged = merge_json(pluginsDataMerged, i)
 
     # print(pluginsDataMerged)
-    with open("extras.json", "r", encoding="utf-8") as file:
-        data = json.load(file)
-        extras = data["extras"]
-        for extra in extras:
-            pluginsDataMerged.update(extra)
+    # with open("extras.json", "r", encoding="utf-8") as file:
+    #     data = json.load(file)
+    #     extras = data["extras"]
+    #     for extra in extras:
+    #         pluginsDataMerged.update(extra)
     resultData = {"plugins": pluginsDataMerged}
 
     with open("plugins.json", "w", encoding="utf-8") as file:
