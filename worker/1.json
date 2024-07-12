@@ -1,0 +1,64 @@
+{
+  "plugins": [
+    {
+      "name": "bilibili",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
+      "version": "0.1.15"
+    },
+    {
+      "name": "QQ音乐",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/qq/index.js",
+      "version": "0.2.6"
+    },
+    {
+      "name": "简繁音乐",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/wy/index.js",
+      "version": "0.0.6"
+    },
+    {
+      "name": "云音乐",
+      "url": "http://adad23u.appinstall.life/dist/kuwo/index.js",
+      "version": "0.1.6"
+    },
+    {
+      "name": "咪咕音乐",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/mg/index.js",
+      "version": "0.2.2"
+    },
+    {
+      "name": "酷狗",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/kg/index.js",
+      "version": "0.1.6"
+    },
+    {
+      "name": "5sing",
+      "url": "https://agit.ai/vale_gtt/MSC_API/raw/branch/master/%e7%8c%ab%e5%a4%b4%e7%8c%ab_plugs/5sing/index.js",
+      "version": "0.1.1"
+    },
+    {
+      "name": "Audiomack",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/audiomack/index.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "音悦台",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js",
+      "version": "0.0.1"
+    },
+    {
+      "name": "酷歌词",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/kugeci.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "歌词网",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciwang/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "歌词千寻",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js",
+      "version": "0.0.0"
+    }
+  ]
+}
