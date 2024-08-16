@@ -1,44 +1,34 @@
 {
   "plugins": [
-    { "name": "Bilibili", "url": "http://adad23u.appinstall.life/dist/bilibili/index.js", "version": "0.1.7" },
-    { "name": "QQ", "url": "http://adad23u.appinstall.life/dist/qq/index.js", "version": "0.2.1" },
-    { "name": "网易", "url": "http://adad23u.appinstall.life/dist/netease/index.js", "version": "0.2.1" },
     {
-      "name": "酷我",
-      "url": "http://adad23u.appinstall.life/dist/kuwo/index.js",
-      "version": "0.1.6"
+      "name": "bilibili",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
+      "version": "0.1.15"
     },
-    { "name": "咪咕", "url": "http://adad23u.appinstall.life/dist/migu/index.js", "version": "0.2.0" },
-    { "name": "酷狗", "url": "http://adad23u.appinstall.life/dist/kugou/index.js", "version": "0.1.4" },
     {
-      "name": "简繁",
+      "name": "QQ音乐",
+      "url": "http://adad23u.appinstall.life/dist/qq/index.js",
+      "version": "0.2.2"
+    },
+    {
+      "name": "简繁音乐",
       "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/wy/index.js",
       "version": "0.0.6"
     },
-    { "name": "5sing", "url": "http://adad23u.appinstall.life/dist/5sing/index.js", "version": "0.1.1" },
-    { "name": "喜马拉雅", "url": "http://adad23u.appinstall.life/dist/xmly/index.js", "version": "0.1.4" },
-    { "name": "千千", "url": "http://adad23u.appinstall.life/dist/qianqian/index.js", "version": "0.1.2" },
-    { "name": "全民K歌", "url": "http://adad23u.appinstall.life/dist/qmkg/index.js", "version": "0.1.0" },
     {
-      "name": "音悦台",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js",
-      "version": "0.0.1"
-    },
-    { "name": "猫耳", "url": "http://adad23u.appinstall.life/dist/maoerfm/index.js", "version": "0.1.3" },
-    {
-      "name": "网易电台",
-      "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
-      "version": "0.0.1"
+      "name": "咪咕音乐",
+      "url": "http://adad23u.appinstall.life/dist/migu/index.js",
+      "version": "0.2.1"
     },
     {
-      "name": "快手",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
-      "version": "0.0.1"
+      "name": "酷狗",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/kg/index.js",
+      "version": "0.1.6"
     },
     {
-      "name": "Youtube",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
-      "version": "0.0.1"
+      "name": "5sing",
+      "url": "https://agit.ai/vale_gtt/MSC_API/raw/branch/master/%e7%8c%ab%e5%a4%b4%e7%8c%ab_plugs/5sing/index.js",
+      "version": "0.1.1"
     },
     {
       "name": "Audiomack",
@@ -46,14 +36,49 @@
       "version": "0.0.2"
     },
     {
-      "name": "Navidrome",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/navidrome/index.js",
+      "name": "音悦台",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js",
       "version": "0.0.1"
     },
     {
-      "name": "Suno",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/suno/index.js",
+      "name": "酷歌词",
+      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/kugeci.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "歌词网",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciwang/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "歌词千寻",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js",
+      "version": "0.0.0"
+    },
+    { "name": "酷我", "url": "http://adad23u.appinstall.life/dist/kuwo/index.js", "version": "0.1.6" },
+    { "name": "网易云音乐", "url": "https://gitee.com/raycn120/musicfree/raw/master/netease.js", "version": "0.2.3" },
+    { "name": "千千音乐", "url": "http://adad23u.appinstall.life/dist/qianqian/index.js", "version": "0.1.2" },
+    { "name": "喜马拉雅", "url": "http://adad23u.appinstall.life/dist/xmly/index.js", "version": "0.1.4" },
+    { "name": "全民K歌", "url": "http://adad23u.appinstall.life/dist/qmkg/index.js", "version": "0.1.0" },
+    {
+      "name": "快手",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
       "version": "0.0.1"
+    },
+    {
+      "name": "Navidrome",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/navidrome/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "猫耳FM",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/maoerfm/index.js",
+      "version": "0.1.4"
+    },
+    {
+      "name": "suno",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/suno/index.js",
+      "version": "0.0.0"
     },
     {
       "name": "WebDAV",
@@ -61,23 +86,18 @@
       "version": "0.0.2"
     },
     {
-      "name": "Udio",
+      "name": "udio",
       "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/udio/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
       "version": "0.0.1"
     },
     {
-      "name": "歌词千寻",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js",
-      "version": "0.0.1"
-    },
-    {
-      "name": "酷歌词",
-      "url": "https://gitee.com/ThomasYou/musicfree/raw/master/dist/kugeci.js",
-      "version": "0.0.1"
-    },
-    {
-      "name": "歌词网",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciwang/index.js",
+      "name": "网易云电台",
+      "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.1"
     }
   ]
