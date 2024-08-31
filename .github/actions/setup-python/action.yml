@@ -1,0 +1,25 @@
+name: Setup Python
+description: Setup Python
+
+inputs:
+  python-version:
+    description: Python version
+    required: false
+    default: "3.11"
+
+runs:
+  using: "composite"
+  steps:
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ inputs.python-version }}
+        architecture: "x64"
+
+    - name: Setup PDM
+      uses: pdm-project/setup-pdm@v3
+
+    - name: Configure PDM
+      shell: bash
+      run: |
+        pdm config check_update false

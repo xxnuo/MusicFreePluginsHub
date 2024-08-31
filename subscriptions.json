@@ -1,7 +1,0 @@
-{
-  "subscriptions": [
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json",
-    "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json", 
-    "https://gitlab.com/acoolbook/musicfree/-/raw/main/music.json"
-  ]
-}
