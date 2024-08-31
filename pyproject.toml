@@ -1,0 +1,21 @@
+[project]
+name = "MusicFreePluginsHub"
+version = "0.1.0"
+description = "MusicFree 插件订阅聚合器 - 每天更新"
+authors = [
+    {name = "xxnuo", email = ""},
+    {name = "GuGuMur", email = "2221533105@qq.com"},
+]
+dependencies = [
+    "ujson>=5.10.0",
+    "httpx>=0.27.2",
+    "loguru>=0.7.2",
+    "packaging>=24.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
