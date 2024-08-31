@@ -15,6 +15,9 @@ jobs:
       - name: Setup Python environment
         uses: ./.github/actions/setup-python
 
+      - name: Install prerequisites
+        run: pdm install
+
       - name: Run Python Script
         run: pdm run src/__init__.py
         
