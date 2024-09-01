@@ -51,14 +51,32 @@ async def main(client: AsyncClient):
     # 整理保留最新的版本
     await client.aclose()
     logger.info("整理插件......")
+    # 处理插件别名问题
+    name_map = {
+        alias: name
+        for name, aliases in origins["nicknames"].items()
+        for alias in aliases
+    }
+    all_plugins = [
+        {
+            "name": name_map.get(plugin["name"], plugin["name"]),
+            "url": plugin["url"],
+            "version": plugin["version"],
+        }
+        for plugin in all_plugins
+    ]
+    # 筛选版本
     results = {
-        "plugins": [
-            max(
-                (plugin for plugin in all_plugins if plugin["name"] == name),
-                key=lambda p: parse(p["version"]),
-            )
-            for name in {plugin["name"] for plugin in all_plugins}
-        ]
+        "plugins": sorted(
+            [
+                max(
+                    (plugin for plugin in all_plugins if plugin["name"] == name),
+                    key=lambda p: parse(p["version"]),
+                )
+                for name in {plugin["name"] for plugin in all_plugins}
+            ],
+            key=all_plugins.index,
+        )
     }
     with open(
         Path(__file__).parent.parent / "dist" / "plugins.json", "w", encoding="utf-8"
