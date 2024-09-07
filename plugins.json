@@ -161,16 +161,6 @@
       "version": "0.0.5"
     },
     {
-      "name": "MiguMusic",
-      "url": "https:\/\/gitee.com\/ikun0014\/musicfree\/raw\/master\/mg\/index.js",
-      "version": "0.0.5"
-    },
-    {
-      "name": "KugouMusic",
-      "url": "https:\/\/gitee.com\/ikun0014\/musicfree\/raw\/master\/kg\/index.js",
-      "version": "0.0.5"
-    },
-    {
       "name": "KuwoMusic",
       "url": "https:\/\/gitee.com\/ikun0014\/musicfree\/raw\/master\/kw\/index.js",
       "version": "0.0.5"
