@@ -29,7 +29,7 @@ Fork 并启用 Actions 后，请在仓库的 Action 菜单中设置 Workflow 权
 
 懒人链接通过 Cloudflare Pages 部署。您也可以在类似平台如 Vercel、GitHub Pages、Netlify 等部署直接链接，并绑定自定义域名，以便在国内访问。
 
-
+<!--
 ### 2024.08.16 更新：自动更新说明
 
 因各个源的插件版本更新频率不同，某些特殊功能不同，失效时间不同
@@ -37,3 +37,4 @@ Fork 并启用 Actions 后，请在仓库的 Action 菜单中设置 Workflow 权
 
 当然这些都是我完成的操作，所以你们用法和之前没啥差别，只是 fork 本仓库没法利用 actions自动更新。
 软件内还是正常检查更新就行。
+-->
