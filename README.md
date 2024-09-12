@@ -23,7 +23,7 @@ https://musicfreepluginshub.pages.dev/plugins.json
 
 ## 自行部署
 
-Fork 并启用 Actions 后，请在仓库的 Action 菜单中设置 Workflow 权限为“读取和写入”。Actions 可以手动触发，或自动于 UTC 时间 20:00 执行，生成 plugins.json 文件。
+Fork 并启用 Actions 后，请在仓库的 Action 菜单中设置 Workflow 权限为“读取和写入”。Actions 可以手动触发，或自动执行，生成 plugins.json 文件。
 
 获取您自己可访问的 plugins.json 的直接链接以使用。
 
