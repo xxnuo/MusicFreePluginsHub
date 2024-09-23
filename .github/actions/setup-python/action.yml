@@ -1,25 +1,15 @@
 name: Setup Python
 description: Setup Python
 
-inputs:
-  python-version:
-    description: Python version
-    required: false
-    default: "3.11"
-
 runs:
   using: "composite"
   steps:
-    - name: setup python
-      uses: actions/setup-python@v4
+    - name: Install uv
+      uses: astral-sh/setup-uv@v2
       with:
-        python-version: ${{ inputs.python-version }}
-        architecture: "x64"
+        enable-cache: true
 
-    - name: Setup PDM
-      uses: pdm-project/setup-pdm@v3
-
-    - name: Configure PDM
-      shell: bash
-      run: |
-        pdm config check_update false
+    - name: "Set up Python"
+      uses: actions/setup-python@v5
+      with:
+        python-version-file: "pyproject.toml"
