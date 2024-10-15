@@ -61,36 +61,6 @@
       "version": "0.0.1"
     },
     {
-      "name": "QQ音乐",
-      "url": "https:\/\/gitee.com\/ThomasYou\/musicfree\/raw\/master\/dist\/qq\/index.js",
-      "version": "0.2.6"
-    },
-    {
-      "name": "简繁音乐",
-      "url": "https:\/\/gitee.com\/ThomasYou\/musicfree\/raw\/master\/dist\/wy\/index.js",
-      "version": "0.0.6"
-    },
-    {
-      "name": "云音乐",
-      "url": "http:\/\/adad23u.appinstall.life\/dist\/kuwo\/index.js",
-      "version": "0.1.6"
-    },
-    {
-      "name": "咪咕音乐",
-      "url": "https:\/\/gitee.com\/ThomasYou\/musicfree\/raw\/master\/dist\/mg\/index.js",
-      "version": "0.2.2"
-    },
-    {
-      "name": "酷狗",
-      "url": "https:\/\/gitee.com\/ThomasYou\/musicfree\/raw\/master\/dist\/kg\/index.js",
-      "version": "0.1.6"
-    },
-    {
-      "name": "酷歌词",
-      "url": "https:\/\/gitee.com\/ThomasYou\/musicfree\/raw\/master\/dist\/kugeci.js",
-      "version": "0.0.0"
-    },
-    {
       "name": "5sing",
       "url": "http:\/\/adad23u.appinstall.life\/dist\/5sing\/index.js",
       "version": "0.1.1"
@@ -99,6 +69,11 @@
       "name": "酷我",
       "url": "http:\/\/adad23u.appinstall.life\/dist\/kuwo\/index.js",
       "version": "0.1.6"
+    },
+    {
+      "name": "酷狗",
+      "url": "http:\/\/adad23u.appinstall.life\/dist\/kugou\/index.js",
+      "version": "0.1.4"
     },
     {
       "name": "网易云",
@@ -124,6 +99,11 @@
       "name": "全民K歌",
       "url": "http:\/\/adad23u.appinstall.life\/dist\/qmkg\/index.js",
       "version": "0.1.0"
+    },
+    {
+      "name": "QQ音乐",
+      "url": "http:\/\/adad23u.appinstall.life\/dist\/qq\/index.js",
+      "version": "0.2.1"
     },
     {
       "name": "小秋音乐",
@@ -154,11 +134,6 @@
       "name": "网易云电台",
       "url": "https:\/\/cdn.jsdelivr.net\/gh\/GuGuMur\/MusicFreePlugin-NeteaseRadio@master\/dist\/plugin.js",
       "version": "0.0.2"
-    },
-    {
-      "name": "网易云音乐",
-      "url": "https:\/\/gitee.com\/raycn120\/musicfree\/raw\/master\/netease.js",
-      "version": "0.2.3"
     }
   ]
 }
