@@ -10,7 +10,7 @@
   "singles": [
     {
       "name": "网易云电台",
-      "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
+      "url": "https://jgithub.xyz/GuGuMur/MusicFreePlugin-NeteaseRadio/raw/master/dist/plugin.js",
       "version": "0.0.2"
     },
     {
