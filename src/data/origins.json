@@ -3,9 +3,9 @@
     "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreePlugins/raw/master/plugins.json",
     "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json",
     "https://gitlab.com/acoolbook/musicfree/-/raw/main/music.json",
-    "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/myPlugins.json",
     "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json",
-    "https://gitee.com/crisy/music-free-plugins/raw/master/plugins.json"
+    "https://gitee.com/crisy/music-free-plugins/raw/master/plugins.json",
+    "https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json"
   ],
   "singles": [
     {
@@ -17,6 +17,11 @@
       "name": "网易云音乐",
       "url": "https://gitee.com/raycn120/musicfree/raw/master/netease.js",
       "version": "0.2.3"
+    },
+    {
+      "name": "云音乐",
+      "url": "http://adad23u.appinstall.life/dist/kuwo/index.js",
+      "version": "0.1.6"
     }
   ],
   "nicknames": {}
