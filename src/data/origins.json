@@ -1,15 +1,16 @@
 {
   "sources": [
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json",
+    "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreePlugins/raw/master/plugins.json",
     "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json",
     "https://gitlab.com/acoolbook/musicfree/-/raw/main/music.json",
     "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/myPlugins.json",
-    "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json"
+    "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json",
+    "https://gitee.com/crisy/music-free-plugins/raw/master/plugins.json"
   ],
   "singles": [
     {
       "name": "网易云电台",
-      "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
+      "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
     {
