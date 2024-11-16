@@ -11,8 +11,7 @@
 
 国内用户：
 [https://mirror.ghproxy.com/github.com/lmhpg9981/MusicFreePluginsHub/raw/main/plugins.json](https://mirror.ghproxy.com/github.com/lmhpg9981/MusicFreePluginsHub/raw/main/plugins.json)
-[https://gitee.com/Lm_lanmei64/MusicFreePluginsHub/raw/main/plugins.json]
-(https://gitee.com/Lm_lanmei64/MusicFreePluginsHub/raw/main/plugins.json)
+[https://gitee.com/Lm_lanmei64/MusicFreePluginsHub/raw/main/plugins.json](https://gitee.com/Lm_lanmei64/MusicFreePluginsHub/raw/main/plugins.json)
 
 
 注：
