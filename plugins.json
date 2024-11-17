@@ -36,11 +36,6 @@
       "version": "0.1.4"
     },
     {
-      "name": "suno",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/suno\/index.js",
-      "version": "0.0.0"
-    },
-    {
       "name": "WebDAV",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/webdav\/index.js",
       "version": "0.0.2"
