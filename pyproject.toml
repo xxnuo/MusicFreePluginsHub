@@ -12,10 +12,6 @@ dependencies = [
     "loguru>=0.7.2",
     "packaging>=24.1",
 ]
-requires-python = "==3.11.*"
+requires-python = ">=3.12"
 readme = "README.md"
 license = { text = "MIT" }
-
-
-[tool.pdm]
-distribution = false

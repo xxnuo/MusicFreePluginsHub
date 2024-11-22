@@ -2,8 +2,8 @@ name: Scheduled Python Worker
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # 每天 UTC 时间 00:00 运行
-  workflow_dispatch:  # 添加手动触发器
+    - cron: "0 20 * * *" # 每天 UTC 时间 00:00 运行
+  workflow_dispatch: # 添加手动触发器
 
 jobs:
   run-worker:
@@ -16,11 +16,11 @@ jobs:
         uses: ./.github/actions/setup-python
 
       - name: Install prerequisites
-        run: pdm install
+        run: uv sync --all-extras --dev
 
       - name: Run Python Script
-        run: pdm run src/__init__.py
-        
+        run: uv run src/__init__.py
+
       - name: Commit and Push
         run: |
           git config user.name github-actions[bot]
