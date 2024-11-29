@@ -1,6 +1,6 @@
 {
   "sources": [
-    "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreePlugins/raw/master/plugins.json",
+    "https://ghp.ci/https://raw.githubusercontent.com/maotoumao/MusicFreePlugins/master/plugins.json",
     "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json",
     "https://gitlab.com/acoolbook/musicfree/-/raw/main/music.json",
     "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json",
@@ -10,7 +10,7 @@
   "singles": [
     {
       "name": "网易云电台",
-      "url": "https://ghp.ci/github.com/GuGuMur/MusicFreePlugin-NeteaseRadio/raw/main/dist/plugins.json",
+      "url": "https://ghp.ci/github.com/GuGuMur/MusicFreePlugin-NeteaseRadio/raw/main/dist/plugins.js",
       "version": "0.0.2"
     },
     {
