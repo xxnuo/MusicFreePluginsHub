@@ -1,14 +1,44 @@
 {
   "plugins": [
     {
+      "name": "歌词千寻",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciqianxun\/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "bilibili",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/bilibili\/index.js",
+      "version": "0.1.15"
+    },
+    {
       "name": "Audiomack",
-      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/audiomack\/index.js",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/audiomack\/index.js",
       "version": "0.0.2"
     },
     {
+      "name": "歌词网",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciwang\/index.js",
+      "version": "0.0.0"
+    },
+    {
       "name": "快手",
-      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/kuaishou\/index.js",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/kuaishou\/index.js",
       "version": "0.0.1"
+    },
+    {
+      "name": "Navidrome",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/navidrome\/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "猫耳FM",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/maoerfm\/index.js",
+      "version": "0.1.4"
+    },
+    {
+      "name": "suno",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/suno\/index.js",
+      "version": "0.0.0"
     },
     {
       "name": "5sing",
@@ -24,16 +54,6 @@
       "name": "酷我",
       "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/kuwo\/index.js",
       "version": "0.1.7"
-    },
-    {
-      "name": "猫耳FM",
-      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/maoerfm\/index.js",
-      "version": "0.1.4"
-    },
-    {
-      "name": "Navidrome",
-      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/navidrome\/index.js",
-      "version": "0.0.0"
     },
     {
       "name": "咪咕",
@@ -74,26 +94,6 @@
       "name": "Youtube",
       "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/youtube\/index.js",
       "version": "0.0.1"
-    },
-    {
-      "name": "歌词千寻",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciqianxun\/index.js",
-      "version": "0.0.0"
-    },
-    {
-      "name": "bilibili",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/bilibili\/index.js",
-      "version": "0.1.15"
-    },
-    {
-      "name": "歌词网",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciwang\/index.js",
-      "version": "0.0.0"
-    },
-    {
-      "name": "suno",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/suno\/index.js",
-      "version": "0.0.0"
     },
     {
       "name": "WebDAV",
