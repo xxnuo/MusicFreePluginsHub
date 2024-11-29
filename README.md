@@ -1,5 +1,6 @@
 本仓库中的插件仅为示例，来源于互联网上的公开接口，并经过筛选，排除了所有VIP/付费/试用歌曲。它们仅供学习和参考之用。请勿将它们用于任何商业目的，并确保其使用合理合法。
 
+
 # MusicFree 源插件订阅聚合器
 
 个人 MusicFree 源插件订阅聚合器——通过 Github Actions 每日自动检测并同步更新。
@@ -9,12 +10,9 @@
 这个聚合的插件接口比较多，一个订阅就够用，记得删除原有订阅和插件以免冲突。
 
 国内用户：
+[https://mirror.ghproxy.com/github.com/lmhpg9981/MusicFreePluginsHub/raw/main/plugins.json](https://mirror.ghproxy.com/github.com/lmhpg9981/MusicFreePluginsHub/raw/main/plugins.json)
+[https://gitee.com/Lm_lanmei64/MusicFreePluginsHub/raw/main/plugins.json](https://gitee.com/Lm_lanmei64/MusicFreePluginsHub/raw/main/plugins.json)
 
-https://musicfreepluginshub.2020818.xyz/plugins.json
-
-国际用户：
-
-https://musicfreepluginshub.pages.dev/plugins.json
 
 注：
 
