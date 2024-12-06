@@ -6,19 +6,14 @@
       "version": "0.0.2"
     },
     {
-      "name": "猫耳FM",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/maoerfm\/index.js",
-      "version": "0.1.4"
+      "name": "歌词网",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciwang\/index.js",
+      "version": "0.0.0"
     },
     {
       "name": "bilibili",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/bilibili\/index.js",
-      "version": "0.2.1"
-    },
-    {
-      "name": "歌词网",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciwang\/index.js",
-      "version": "0.0.0"
+      "version": "0.2.2"
     },
     {
       "name": "快手",
@@ -26,9 +21,9 @@
       "version": "0.0.2"
     },
     {
-      "name": "WebDAV",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/webdav\/index.js",
-      "version": "0.0.2"
+      "name": "Navidrome",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/navidrome\/index.js",
+      "version": "0.0.0"
     },
     {
       "name": "suno",
@@ -36,14 +31,19 @@
       "version": "0.0.0"
     },
     {
-      "name": "Youtube",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/youtube\/index.js",
-      "version": "0.0.1"
-    },
-    {
       "name": "歌词千寻",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciqianxun\/index.js",
       "version": "0.0.0"
+    },
+    {
+      "name": "猫耳FM",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/maoerfm\/index.js",
+      "version": "0.1.4"
+    },
+    {
+      "name": "WebDAV",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/webdav\/index.js",
+      "version": "0.0.2"
     },
     {
       "name": "udio",
@@ -56,9 +56,9 @@
       "version": "0.0.1"
     },
     {
-      "name": "Navidrome",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/navidrome\/index.js",
-      "version": "0.0.0"
+      "name": "Youtube",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/youtube\/index.js",
+      "version": "0.0.1"
     },
     {
       "name": "5sing",
