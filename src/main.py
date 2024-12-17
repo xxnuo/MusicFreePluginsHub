@@ -15,14 +15,18 @@ dist_json_path = dist_dir / "plugins.json"
 
 async def fetch_sub_plugins(url: str, client: AsyncClient) -> list:
     """从订阅源获取单个插件列表"""
-    try:
-        response = await client.get(url, timeout=10.0)  # 添加超时设置
-        response.raise_for_status()
-        data = response.json()
-        return data.get("plugins", [])
-    except Exception as e:
-        logger.error(f"订阅源 {url} 获取失败: {str(e)}")
-        return []
+    for retry in range(3):
+        try:
+            response = await client.get(url, timeout=10.0)  # 添加超时设置
+            response.raise_for_status()
+            data = response.json()
+            return data.get("plugins", [])
+        except Exception as e:
+            if retry == 2:  # 最后一次重试失败
+                logger.error(f"订阅源 {url} 获取失败(重试{retry+1}/3): {str(e)}")
+                return []
+            logger.warning(f"订阅源 {url} 获取失败(重试{retry+1}/3): {str(e)}")
+            await asyncio.sleep(1)  # 等待1秒后重试
     
 async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
     """获取有效的插件列表"""
@@ -30,32 +34,36 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
     
     async def download_and_process_plugin(plugin: dict) -> tuple[bool, dict]:
         """下载插件并处理URL"""
-        try:
-            url = plugin["url"]
-            if url in seen_urls:  # 检查重复
-                return False, plugin
-            seen_urls.add(url)
-            
-            response = await client.get(url, timeout=10.0)
-            response.raise_for_status()
-            
-            md5 = hashlib.md5(url.encode('utf-8')).hexdigest()
-            output_path = dist_dir / f"{md5}.json"
-            output_path.write_bytes(response.content)
-            
-            logger.success(f"插件 {plugin.get('name', url)} 下载成功")
-                        
-            # 使用pythonmonkey校验插件功能
-            
-            # 更新插件URL
-            new_plugin = plugin.copy()
-            new_plugin["url"] = f"https://musicfreepluginshub.2020818.xyz/{md5}.js"
-            
-            return True, new_plugin
-            
-        except Exception as e:
-            logger.error(f"插件 {plugin.get('name', plugin['url'])} 下载失败: {str(e)}")
+        url = plugin["url"]
+        if url in seen_urls:  # 检查重复
             return False, plugin
+        seen_urls.add(url)
+        
+        for retry in range(3):
+            try:
+                response = await client.get(url, timeout=10.0)
+                response.raise_for_status()
+                
+                md5 = hashlib.md5(url.encode('utf-8')).hexdigest()
+                output_path = dist_dir / f"{md5}.json"
+                output_path.write_bytes(response.content)
+                
+                logger.success(f"插件 {plugin.get('name', url)} 下载成功")
+                            
+                # TODO: 校验插件功能
+                
+                # 更新插件URL
+                new_plugin = plugin.copy()
+                new_plugin["url"] = f"https://musicfreepluginshub.2020818.xyz/{md5}.js"
+                
+                return True, new_plugin
+                
+            except Exception as e:
+                if retry == 2:  # 最后一次重试失败
+                    logger.error(f"插件 {plugin.get('name', url)} 下载失败(重试{retry+1}/3): {str(e)}")
+                    return False, plugin
+                logger.warning(f"插件 {plugin.get('name', url)} 下载失败(重试{retry+1}/3): {str(e)}")
+                await asyncio.sleep(1)  # 等待1秒后重试
 
     tasks = [download_and_process_plugin(plugin) for plugin in plugins]
     results = await asyncio.gather(*tasks)
