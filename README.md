@@ -14,11 +14,16 @@ https://musicfreepluginshub.2020818.xyz/plugins.json
 ```
 注：
 
-1. 如出现部分特殊插件安装提示网络错误，可能需要科学上网环境才能正常安装。因为都是手动检测可用才会更新到仓库内，出问题一般是你的网络环境问题。
-2. 部分插件被作者混淆代码，可能在桌面端无法正常使用。等待 musicfree 作者给桌面端更新插件引擎功能吧。
+1. 部分插件被作者混淆代码，可能在桌面端无法正常使用。等待 musicfree 作者给桌面端更新插件引擎功能吧。
+2. 插件属原作者所有，本仓库仅用于聚合及测试 CDN 分发。
 
 ## 自行部署
 
 - Fork 本仓库并启用 Actions 后，请在仓库的 Action 菜单中设置 Workflow 权限为“读取和写入”。
 - Actions 可以手动触发，或自动执行，生成 plugins.json 文件。
 - 在 `Cloudflare Pages`、`Vercel`、`GitHub Pages`、`Netlify` 等平台导入部署仓库后可直接获取 `plugins.json` 的链接。可绑定自定义域名，以便在国内访问。
+
+
+## Dev
+
+TODO: 校验 js 插件功能是否正常

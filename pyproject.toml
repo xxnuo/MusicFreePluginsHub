@@ -6,12 +6,6 @@ authors = [
     { name = "xxnuo", email = "pip@2020818.xyz" },
     { name = "GuGuMur", email = "2221533105@qq.com" },
 ]
-dependencies = [
-    "ujson>=5.10.0",
-    "httpx>=0.27.2",
-    "loguru>=0.7.2",
-    "packaging>=24.1",
-]
-requires-python = ">=3.12"
 readme = "README.md"
 license = { text = "MIT" }
+requires-python = ">=3.13"

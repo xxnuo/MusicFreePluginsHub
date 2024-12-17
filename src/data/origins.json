@@ -1,10 +1,14 @@
 {
   "sources": [
     "https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json",
-    "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json",
     "https://gitlab.com/acoolbook/musicfree/-/raw/main/music.json",
     "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/myPlugins.json",
-    "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json"
+    "https://mf.ikunshare.com/plugins.json",
+    "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins.json"
+  ],
+  "dead_sources_backup": [
+    "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json",
+    "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json"
   ],
   "singles": [
     {
@@ -17,6 +21,5 @@
       "url": "https://gitee.com/raycn120/musicfree/raw/master/netease.js",
       "version": "0.2.3"
     }
-  ],
-  "nicknames": {}
+  ]
 }

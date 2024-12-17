@@ -2,7 +2,7 @@ name: Scheduled Python Worker
 
 on:
   schedule:
-    - cron: "0 20 * * *" # 每天 UTC 时间 00:00 运行
+    - cron: "0 17 */2 * *" # 每隔两天 UTC 时间 17:00 (北京时间凌晨 1:00) 运行
   workflow_dispatch: # 添加手动触发器
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
         run: uv sync --all-extras --dev
 
       - name: Run Python Script
-        run: uv run src/__init__.py
+        run: uv run src/main.py
 
       - name: Commit and Push
         run: |
