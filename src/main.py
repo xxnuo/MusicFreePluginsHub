@@ -45,7 +45,7 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 response.raise_for_status()
                 
                 md5 = hashlib.md5(url.encode('utf-8')).hexdigest()
-                output_path = dist_dir / f"{md5}.json"
+                output_path = dist_dir / f"{md5}.js"
                 output_path.write_bytes(response.content)
                 
                 logger.success(f"插件 {plugin.get('name', url)} 下载成功")
