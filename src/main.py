@@ -55,7 +55,7 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 # 更新插件
                 new_plugin = plugin.copy()
                 new_plugin["url"] = f"https://musicfreepluginshub.2020818.xyz/{md5}.js"
-                new_plugin["name"] = f"{plugin.get('name', url)}-{md5[:8]}"
+                new_plugin["name"] = f"{plugin.get('name', url)} {md5[:8]}"
                 
                 return True, new_plugin
                 
