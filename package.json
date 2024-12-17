@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "mkdir -p public && cp plugins.json public/",
+    "start": "serve public",
+    "dev": "serve public"
+  },
+  "dependencies": {
+    "serve": "latest"
+  }
+}
