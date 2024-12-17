@@ -108,7 +108,9 @@ async def main():
     # 7. 保存结果
     try:
         with open(dist_json_path, "w", encoding="utf-8") as file:
-            json.dump(results, file, ensure_ascii=False, indent=2)
+            json_str = json.dumps(results, ensure_ascii=False, indent=2)
+            json_str = json_str.replace('\\/', '/')  # 强制替换转义的斜杠
+            file.write(json_str)
         logger.success(f"本次运行已成功完成！输出文件: {dist_json_path}")
     except Exception as e:
         logger.error(f"保存结果文件失败: {str(e)}")
