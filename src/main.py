@@ -56,7 +56,7 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 new_plugin = plugin.copy()
                 # 暂时无法替换 URL 加速下载，替换了和 js 內不同的 URL 貌似无法下载插件
                 new_plugin["url"] = f"https://musicfreepluginshub.2020818.xyz/{md5}.js"
-                new_plugin["name"] = f"{plugin.get('name', url)} {md5[:8]}"
+                # new_plugin["name"] = f"{plugin.get('name', url)} {md5[:8]}"
                 
                 return True, new_plugin
                 
@@ -102,8 +102,16 @@ async def main():
 
     logger.info("整理插件......")
     
+    # 按名称分组，每组只保留版本号最高的插件
+    plugins_by_name = {}
+    for plugin in all_plugins:
+        name = plugin.get("name", "noname")
+        version = plugin.get("version", "0.0.1")
+        if name not in plugins_by_name or version > plugins_by_name[name].get("version", "0.0.0"):
+            plugins_by_name[name] = plugin
+            
     results = {
-        "plugins": sorted(all_plugins, key=lambda x: x.get("name", ""))  # 按名称排序
+        "plugins": sorted(plugins_by_name.values(), key=lambda x: x.get("name", ""))  # 按名称排序
     }
     
     # 7. 保存结果
