@@ -2,252 +2,252 @@
   "plugins": [
     {
       "name": "5sing b25a34b4",
-      "url": "https://musicfreepluginshub.2020818.xyz/b25a34b4e76d85de88f82a2f041288a0.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/5sing.js",
       "version": "0.0.3"
     },
     {
       "name": "5sing bc8bcf81",
-      "url": "https://musicfreepluginshub.2020818.xyz/bc8bcf8121df3ac928c55632e67cfcc4.js",
+      "url": "http://adad23u.appinstall.life/dist/5sing/index.js",
       "version": "0.1.1"
     },
     {
       "name": "Audiomack 763db2e9",
-      "url": "https://musicfreepluginshub.2020818.xyz/763db2e9286a7826657fb2b88466cfc7.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/audiomack/index.js",
       "version": "0.0.2"
     },
     {
       "name": "Kugou Music 6c4e03de",
-      "url": "https://musicfreepluginshub.2020818.xyz/6c4e03de1db7c84b79104a7b7e674e7e.js",
+      "url": "https://mf.ikunshare.com/kg/index.js",
       "version": "0.0.8"
     },
     {
       "name": "Kuwo Music 62866923",
-      "url": "https://musicfreepluginshub.2020818.xyz/62866923b42b77600712c4d5fbb2be65.js",
+      "url": "https://mf.ikunshare.com/kw/index.js",
       "version": "0.0.8"
     },
     {
       "name": "Migu Music 99631556",
-      "url": "https://musicfreepluginshub.2020818.xyz/996315568c696ac652dca93e92171043.js",
+      "url": "https://mf.ikunshare.com/mg/index.js",
       "version": "0.0.8"
     },
     {
       "name": "Navidrome 3fd3c3b1",
-      "url": "https://musicfreepluginshub.2020818.xyz/3fd3c3b115cc87de9ac3d96c2e3c9569.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/navidrome/index.js",
       "version": "0.0.0"
     },
     {
       "name": "Netease Cloud Music f7d1a313",
-      "url": "https://musicfreepluginshub.2020818.xyz/f7d1a3136c67e6dfdea569f214cfee3d.js",
+      "url": "https://mf.ikunshare.com/wy/index.js",
       "version": "0.0.8"
     },
     {
       "name": "QQ Music 42c789c8",
-      "url": "https://musicfreepluginshub.2020818.xyz/42c789c8fd9356d079308b071a98c8a8.js",
+      "url": "https://mf.ikunshare.com/qq/index.js",
       "version": "0.0.8"
     },
     {
       "name": "QQ音乐 a88b122f",
-      "url": "https://musicfreepluginshub.2020818.xyz/a88b122f84d8a5b467b970badb384399.js",
+      "url": "http://adad23u.appinstall.life/dist/qq/index.js",
       "version": "0.2.1"
     },
     {
       "name": "WebDAV ef1bba0e",
-      "url": "https://musicfreepluginshub.2020818.xyz/ef1bba0eb93a3ca633a8e15dda5ed543.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/webdav/index.js",
       "version": "0.0.2"
     },
     {
       "name": "Youtube 41916049",
-      "url": "https://musicfreepluginshub.2020818.xyz/4191604952f19f299cae00d867036179.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
       "version": "0.0.1"
     },
     {
       "name": "bilibili 5831b27a",
-      "url": "https://musicfreepluginshub.2020818.xyz/5831b27ac7343d3987fc9649155b8bb7.js",
+      "url": "http://adad23u.appinstall.life/dist/bilibili/index.js",
       "version": "0.1.7"
     },
     {
       "name": "bilibili 89bf408b",
-      "url": "https://musicfreepluginshub.2020818.xyz/89bf408b5f71902e909307a561ee1315.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
       "version": "0.2.2"
     },
     {
       "name": "suno 249ec994",
-      "url": "https://musicfreepluginshub.2020818.xyz/249ec9940f942034496ee3802e07d0a2.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/suno/index.js",
       "version": "0.0.0"
     },
     {
       "name": "udio 4ad17d90",
-      "url": "https://musicfreepluginshub.2020818.xyz/4ad17d90167dbf9cd0b6249e15c7f998.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/udio/index.js",
       "version": "0.0.0"
     },
     {
       "name": "书音FM a2c44d99",
-      "url": "https://musicfreepluginshub.2020818.xyz/a2c44d99dd3ff1de07f76259d6ef1858.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/shuyinfm.js",
       "version": "0.3.6"
     },
     {
       "name": "全民K歌 24c7ccf1",
-      "url": "https://musicfreepluginshub.2020818.xyz/24c7ccf18c0cbabf38f2f28602a145ad.js",
+      "url": "http://adad23u.appinstall.life/dist/qmkg/index.js",
       "version": "0.1.0"
     },
     {
       "name": "六月听书 93a11730",
-      "url": "https://musicfreepluginshub.2020818.xyz/93a11730408bf308606ddabeaa1fe941.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/6yueting.js",
       "version": "0.1.5"
     },
     {
       "name": "千千音乐 a37e6031",
-      "url": "https://musicfreepluginshub.2020818.xyz/a37e6031521622f705b9f748808916a9.js",
+      "url": "http://adad23u.appinstall.life/dist/qianqian/index.js",
       "version": "0.1.2"
     },
     {
       "name": "咪咕 47f2df30",
-      "url": "https://musicfreepluginshub.2020818.xyz/47f2df303ba1db72c8d4e196142b5eb2.js",
+      "url": "http://adad23u.appinstall.life/dist/migu/index.js",
       "version": "0.2.0"
     },
     {
       "name": "喜马拉雅 c4ca1f16",
-      "url": "https://musicfreepluginshub.2020818.xyz/c4ca1f1646c95e0506ff616b99efc329.js",
+      "url": "http://adad23u.appinstall.life/dist/xmly/index.js",
       "version": "0.1.4"
     },
     {
       "name": "好听轻音乐 56324c9a",
-      "url": "https://musicfreepluginshub.2020818.xyz/56324c9a116e4c81d0ce6500a3da19d9.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/htqyy.js",
       "version": "0.1.0"
     },
     {
       "name": "小枸音乐 0010e26a",
-      "url": "https://musicfreepluginshub.2020818.xyz/0010e26aea90b61e9442df786e2685bc.js",
+      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaogou.js",
       "version": "0.3.0"
     },
     {
       "name": "小枸音乐 6db569b1",
-      "url": "https://musicfreepluginshub.2020818.xyz/6db569b10315dc6ad0a4db99643c250e.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaogou.js",
       "version": "0.0.2"
     },
     {
       "name": "小秋音乐 cdf10b11",
-      "url": "https://musicfreepluginshub.2020818.xyz/cdf10b110435c7e5979906706a9480c0.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoqiu.js",
       "version": "0.0.2"
     },
     {
       "name": "小秋音乐 e75dc10c",
-      "url": "https://musicfreepluginshub.2020818.xyz/e75dc10c6d57f69864dabf6e3e99302b.js",
+      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoqiu.js",
       "version": "0.3.0"
     },
     {
       "name": "小芸音乐 27f7cdf6",
-      "url": "https://musicfreepluginshub.2020818.xyz/27f7cdf68b402b510e31f1545a6dcc3e.js",
+      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoyun.js",
       "version": "0.3.0"
     },
     {
       "name": "小芸音乐 db53f4f1",
-      "url": "https://musicfreepluginshub.2020818.xyz/db53f4f10cbdb85d14b8bf490e3401f0.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoyun.js",
       "version": "0.0.2"
     },
     {
       "name": "小蜗音乐 273c3843",
-      "url": "https://musicfreepluginshub.2020818.xyz/273c3843c182f41e25f8357917f06287.js",
+      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaowo.js",
       "version": "0.3.0"
     },
     {
       "name": "小蜗音乐 292415ca",
-      "url": "https://musicfreepluginshub.2020818.xyz/292415ca8fbabfa027fb0b55bf43fd05.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaowo.js",
       "version": "0.0.2"
     },
     {
       "name": "小蜜音乐 2a5dd624",
-      "url": "https://musicfreepluginshub.2020818.xyz/2a5dd624514f8f3f7897a8c1289a65de.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaomi.js",
       "version": "0.0.2"
     },
     {
       "name": "小蜜音乐 a3d902ab",
-      "url": "https://musicfreepluginshub.2020818.xyz/a3d902ab59c53b8e8caf6a5f7a25cc60.js",
+      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaomi.js",
       "version": "0.3.0"
     },
     {
       "name": "快手 49f2e338",
-      "url": "https://musicfreepluginshub.2020818.xyz/49f2e338273dc5d6701f6cb10aefee3f.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
       "version": "0.0.2"
     },
     {
       "name": "果核音乐 2fcd93af",
-      "url": "https://musicfreepluginshub.2020818.xyz/2fcd93af3525f48024a01be210dd5ab4.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/ghyinyue.js",
       "version": "0.0.1"
     },
     {
       "name": "歌曲宝 8f4c3a2a",
-      "url": "https://musicfreepluginshub.2020818.xyz/8f4c3a2a223895b7eccce7b549f881e3.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
       "version": "0.0.5"
     },
     {
       "name": "歌词千寻 bae5886c",
-      "url": "https://musicfreepluginshub.2020818.xyz/bae5886c27500fa32b28a17b9de8e4e9.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js",
       "version": "0.0.0"
     },
     {
       "name": "歌词网 b73a9bcf",
-      "url": "https://musicfreepluginshub.2020818.xyz/b73a9bcf4c2e7a67a3992ac5a32f85f0.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciwang/index.js",
       "version": "0.0.0"
     },
     {
       "name": "爱听 3768c96a",
-      "url": "https://musicfreepluginshub.2020818.xyz/3768c96a4150e15b32eeba95a019d81f.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/at.js",
       "version": "0.0.6"
     },
     {
       "name": "猫耳FM 2e15871d",
-      "url": "https://musicfreepluginshub.2020818.xyz/2e15871d16f54a4b8cc1a348aaef2547.js",
+      "url": "http://adad23u.appinstall.life/dist/maoerfm/index.js",
       "version": "0.1.3"
     },
     {
       "name": "猫耳FM 7735f9b1",
-      "url": "https://musicfreepluginshub.2020818.xyz/7735f9b122a825d66b5bc14d3f8a1632.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/maoerfm/index.js",
       "version": "0.1.4"
     },
     {
       "name": "种子 67b3ba6d",
-      "url": "https://musicfreepluginshub.2020818.xyz/67b3ba6d067a31d9f12badb4a3d40154.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/zz.js",
       "version": "0.1.0"
     },
     {
       "name": "网易云 30620ad3",
-      "url": "https://musicfreepluginshub.2020818.xyz/30620ad3a0c07e30ae9837b665f61ee8.js",
+      "url": "http://adad23u.appinstall.life/dist/netease/index.js",
       "version": "0.2.1"
     },
     {
       "name": "网易云电台 a408aa98",
-      "url": "https://musicfreepluginshub.2020818.xyz/a408aa98e2c0e126a79a1a3c572ac894.js",
+      "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
     {
       "name": "网易云电台 c4498b02",
-      "url": "https://musicfreepluginshub.2020818.xyz/c4498b02ec7cc3010028e76aa8cf9292.js",
+      "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
     {
       "name": "酷我 520ffca0",
-      "url": "https://musicfreepluginshub.2020818.xyz/520ffca06839390f645805a3cc1d652e.js",
+      "url": "http://adad23u.appinstall.life/dist/kuwo/index.js",
       "version": "0.1.6"
     },
     {
       "name": "酷歌词 f4f74cb4",
-      "url": "https://musicfreepluginshub.2020818.xyz/f4f74cb4eb9a4930b61ee91a81e0caec.js",
+      "url": "https://mf.ikunshare.com/klrc/index.js",
       "version": "0.0.0"
     },
     {
       "name": "酷狗 822850e4",
-      "url": "https://musicfreepluginshub.2020818.xyz/822850e4e73aaa990079c59b48387084.js",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/kugou.js",
       "version": "0.1.4"
     },
     {
       "name": "酷狗 fc14b3a6",
-      "url": "https://musicfreepluginshub.2020818.xyz/fc14b3a6cd389ac6d60495425a240cfd.js",
+      "url": "http://adad23u.appinstall.life/dist/kugou/index.js",
       "version": "0.1.4"
     },
     {
       "name": "音悦台 29351dc3",
-      "url": "https://musicfreepluginshub.2020818.xyz/29351dc376e3849dd8bf5b99e2e92666.js",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js",
       "version": "0.0.1"
     }
   ]
