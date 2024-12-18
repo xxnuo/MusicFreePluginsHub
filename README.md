@@ -23,7 +23,7 @@ https://musicfreepluginshub.2020818.xyz/plugins.json
 - Actions 可以手动触发，或自动执行，生成 plugins.json 文件。
 - 在 `Cloudflare Pages`、`Vercel`、`GitHub Pages`、`Netlify` 等平台导入部署仓库后可直接获取 `plugins.json` 的链接。可绑定自定义域名，以便在国内访问。
 
-## 若无法正常导入插件，手动挨个导入下面的插件也行
+## 若无法正常导入上面的插件订阅，手动挨个导入下面的插件也行
 ```
 https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json
 ```
@@ -39,7 +39,12 @@ https://mf.ikunshare.com/plugins.json
 ```
 https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins.json
 ```
-
+```
+https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js
+```
+```
+https://gitee.com/raycn120/musicfree/raw/master/netease.js
+```
 ## Dev
 
 TODO: 校验 js 插件功能是否正常
