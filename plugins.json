@@ -106,11 +106,6 @@
       "version": "0.0.0"
     },
     {
-      "name": "网易云电台",
-      "url": "https:\/\/ghp.ci\/https:\/\/raw.githubusercontent.com\/GuGuMur\/MusicFreePlugin-NeteaseRadio\/master\/dist\/plugin.js",
-      "version": "0.0.2"
-    },
-    {
       "name": "云音乐",
       "url": "http:\/\/adad23u.appinstall.life\/dist\/kuwo\/index.js",
       "version": "0.1.6"
