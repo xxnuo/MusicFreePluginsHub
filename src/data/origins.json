@@ -1,6 +1,6 @@
 {
   "sources": [
-    "https://mirror.ghproxy.com/https://raw.jgithub.xyz/maotoumao/MusicFreePlugins/master/plugins.json",
+    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maotoumao/MusicFreePlugins/master/plugins.json",
     "https://gitee.com/ThomasYou/musicfree/raw/master/dist/plugins.json",
     "https://gitlab.com/acoolbook/musicfree/-/raw/main/music.json",
     "https://gitee.com/ikun0014/musicfree/raw/master/plugins.json",
