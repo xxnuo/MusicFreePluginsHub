@@ -106,31 +106,6 @@
       "version": "0.2.1"
     },
     {
-      "name": "小秋音乐",
-      "url": "https:\/\/fastly.jsdelivr.net\/gh\/Huibq\/keep-alive\/Music_Free\/xiaoqiu.js",
-      "version": "0.3.0"
-    },
-    {
-      "name": "小蜗音乐",
-      "url": "https:\/\/fastly.jsdelivr.net\/gh\/Huibq\/keep-alive\/Music_Free\/xiaowo.js",
-      "version": "0.3.0"
-    },
-    {
-      "name": "小芸音乐",
-      "url": "https:\/\/fastly.jsdelivr.net\/gh\/Huibq\/keep-alive\/Music_Free\/xiaoyun.js",
-      "version": "0.3.0"
-    },
-    {
-      "name": "小枸音乐",
-      "url": "https:\/\/fastly.jsdelivr.net\/gh\/Huibq\/keep-alive\/Music_Free\/xiaogou.js",
-      "version": "0.3.0"
-    },
-    {
-      "name": "小蜜音乐",
-      "url": "https:\/\/fastly.jsdelivr.net\/gh\/Huibq\/keep-alive\/Music_Free\/xiaomi.js",
-      "version": "0.3.0"
-    },
-    {
       "name": "网易云电台",
       "url": "https:\/\/cdn.jsdelivr.net\/gh\/GuGuMur\/MusicFreePlugin-NeteaseRadio@master\/dist\/plugin.js",
       "version": "0.0.2"
