@@ -107,28 +107,28 @@
     },
     {
       "name": "小枸音乐",
-      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaogou.js",
-      "version": "0.3.0"
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaogou.js",
+      "version": "0.0.2"
     },
     {
       "name": "小秋音乐",
-      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoqiu.js",
-      "version": "0.3.0"
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoqiu.js",
+      "version": "0.0.2"
     },
     {
       "name": "小芸音乐",
-      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoyun.js",
-      "version": "0.3.0"
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoyun.js",
+      "version": "0.0.2"
     },
     {
       "name": "小蜗音乐",
-      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaowo.js",
-      "version": "0.3.0"
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaowo.js",
+      "version": "0.0.2"
     },
     {
       "name": "小蜜音乐",
-      "url": "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaomi.js",
-      "version": "0.3.0"
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaomi.js",
+      "version": "0.0.2"
     },
     {
       "name": "快手",
