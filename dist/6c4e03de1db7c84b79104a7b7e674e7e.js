@@ -377,7 +377,7 @@ async function importMusicSheet(urlLike) {
 }
 module.exports = {
     platform: "Kugou Music",
-    version: "0.0.8",
+    version: "0.0.9",
     author: 'ikun0014',
     appVersion: ">0.1.0-alpha.0",
     srcUrl: "https://mf.ikunshare.com/kg/index.js",

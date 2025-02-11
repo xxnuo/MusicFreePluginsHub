@@ -13,17 +13,17 @@
     {
       "name": "Kugou Music",
       "url": "https://mf.ikunshare.com/kg/index.js",
-      "version": "0.0.8"
+      "version": "0.0.9"
     },
     {
       "name": "Kuwo Music",
       "url": "https://mf.ikunshare.com/kw/index.js",
-      "version": "0.0.8"
+      "version": "0.0.9"
     },
     {
       "name": "Migu Music",
       "url": "https://mf.ikunshare.com/mg/index.js",
-      "version": "0.0.8"
+      "version": "0.0.9"
     },
     {
       "name": "Navidrome",
@@ -33,12 +33,7 @@
     {
       "name": "Netease Cloud Music",
       "url": "https://mf.ikunshare.com/wy/index.js",
-      "version": "0.0.8"
-    },
-    {
-      "name": "QQ Music",
-      "url": "https://mf.ikunshare.com/qq/index.js",
-      "version": "0.0.8"
+      "version": "0.0.9"
     },
     {
       "name": "WebDAV",

@@ -532,7 +532,7 @@ async function getMediaSource(musicItem, quality) {
 module.exports = {
     platform: "Migu Music",
     author: "ikun0014",
-    version: "0.0.8",
+    version: "0.0.9",
     appVersion: ">0.1.0-alpha.0",
     hints: {
         importMusicSheet: [
