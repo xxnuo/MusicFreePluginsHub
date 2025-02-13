@@ -11,29 +11,14 @@
       "version": "0.0.2"
     },
     {
-      "name": "Kugou Music",
-      "url": "https://mf.ikunshare.com/kg/index.js",
-      "version": "0.0.9"
-    },
-    {
-      "name": "Kuwo Music",
-      "url": "https://mf.ikunshare.com/kw/index.js",
-      "version": "0.0.9"
-    },
-    {
-      "name": "Migu Music",
-      "url": "https://mf.ikunshare.com/mg/index.js",
-      "version": "0.0.9"
-    },
-    {
       "name": "Navidrome",
       "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/navidrome/index.js",
       "version": "0.0.0"
     },
     {
-      "name": "Netease Cloud Music",
-      "url": "https://mf.ikunshare.com/wy/index.js",
-      "version": "0.0.9"
+      "name": "QQ音乐",
+      "url": "https://mf.ikunshare.com/qq/index.js",
+      "version": "0.1.0"
     },
     {
       "name": "WebDAV",
@@ -69,6 +54,11 @@
       "name": "六月听书",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/6yueting.js",
       "version": "0.1.5"
+    },
+    {
+      "name": "咪咕音乐",
+      "url": "https://mf.ikunshare.com/mg/index.js",
+      "version": "0.1.0"
     },
     {
       "name": "好听轻音乐",
@@ -146,14 +136,29 @@
       "version": "0.0.2"
     },
     {
+      "name": "网易云音乐",
+      "url": "https://mf.ikunshare.com/wy/index.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "酷我音乐",
+      "url": "https://mf.ikunshare.com/kw/index.js",
+      "version": "0.1.0"
+    },
+    {
       "name": "酷歌词",
       "url": "https://mf.ikunshare.com/klrc/index.js",
-      "version": "0.0.0"
+      "version": "0.1.0"
     },
     {
       "name": "酷狗",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/kugou.js",
       "version": "0.1.4"
+    },
+    {
+      "name": "酷狗音乐",
+      "url": "https://mf.ikunshare.com/kg/index.js",
+      "version": "0.1.0"
     },
     {
       "name": "音悦台",
