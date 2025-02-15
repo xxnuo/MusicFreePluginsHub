@@ -22,3 +22,6 @@ https://musicfreepluginshub.2020818.xyz/plugins.json
 - Fork 本仓库并启用 Actions 后，请在仓库的 Action 菜单中设置 Workflow 权限为“读取和写入”。
 - Actions 可以手动触发，或自动执行，生成 plugins.json 文件。
 - 在 `Cloudflare Pages`、`Vercel`、`GitHub Pages`、`Netlify` 等平台导入部署仓库后可直接获取 `plugins.json` 的链接。可绑定自定义域名，以便在国内访问。
+
+## 交流防失联
+<img src="https://github.com/user-attachments/assets/0eadd1b1-ddae-4dbb-97ae-2f8bf3e2b57c" alt="wechat" width="450">
