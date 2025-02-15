@@ -25,3 +25,4 @@ https://musicfreepluginshub.2020818.xyz/plugins.json
 
 ## 交流防失联
 <img src="https://github.com/user-attachments/assets/0eadd1b1-ddae-4dbb-97ae-2f8bf3e2b57c" alt="wechat" width="350">
+wechat:x-xnuo
