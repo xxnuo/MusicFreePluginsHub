@@ -534,7 +534,12 @@ const qualityLevels = {
 async function getMediaSource(musicItem, quality) {
   const res = (
     await axios_1.default.get(
-      `https://lxmusic.ikunshare.com/url/kw/${musicItem.id}/${qualityLevels[quality]}`
+      `https://api.ikunshare.com/url?source=kw&songId=${musicItem.id}&quality=${qualityLevels[quality]}`,
+      {
+        "headers": {
+          "X-Request-Key": "public_source"
+        }
+      }
     )
   ).data;
   return {
@@ -564,7 +569,7 @@ async function getMusicInfo(musicItem) {
 module.exports = {
   platform: "酷我音乐",
   author: "ikun0014",
-  version: "0.1.0",
+  version: "0.1.1",
   appVersion: ">0.1.0-alpha.0",
   srcUrl: "https://mf.ikunshare.com/kw/index.js",
   cacheControl: "no-cache",

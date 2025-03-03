@@ -231,7 +231,12 @@ const qualityLevels = {
 async function getMediaSource(musicItem, quality) {
   const res = (
     await axios_1.default.get(
-      `https://lxmusic.ikunshare.com/url/kg/${musicItem.id}/${qualityLevels[quality]}`
+      `https://api.ikunshare.com/url?source=kg&songId=${musicItem.id}&quality=${qualityLevels[quality]}`,
+      {
+        "headers": {
+          "X-Request-Key": "public_source"
+        }
+      }
     )
   ).data;
   return {
@@ -484,7 +489,7 @@ async function importMusicSheet(urlLike) {
 }
 module.exports = {
   platform: "酷狗音乐",
-  version: "0.1.0",
+  version: "0.1.1",
   author: "ikun0014",
   appVersion: ">0.1.0-alpha.0",
   srcUrl: "https://mf.ikunshare.com/kg/index.js",
