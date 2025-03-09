@@ -53,7 +53,7 @@
     {
       "name": "咪咕音乐",
       "url": "https://mf.ikunshare.com/mg/index.js",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "name": "好听轻音乐",
@@ -133,17 +133,17 @@
     {
       "name": "网易云音乐",
       "url": "https://mf.ikunshare.com/wy/index.js",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "name": "酷我音乐",
       "url": "https://mf.ikunshare.com/kw/index.js",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "name": "酷歌词",
       "url": "https://mf.ikunshare.com/klrc/index.js",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "name": "酷狗",
@@ -153,7 +153,7 @@
     {
       "name": "酷狗音乐",
       "url": "https://mf.ikunshare.com/kg/index.js",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "name": "音悦台",

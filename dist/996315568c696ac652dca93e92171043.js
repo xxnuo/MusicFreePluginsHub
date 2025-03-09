@@ -34,9 +34,6 @@ async function searchBase(query, page, type) {
   );
   return data.data;
 }
-// function musicCanPlayFilter(_) {
-//     return _.lisSQ || _.lisHQ || _.lisBq || _.lisCr || _.lisQq || _.listenUrl ||  _.mp3;
-// }
 function musicCanPlayFilter(_) {
   return _.mp3 || _.listenUrl || _.lisQq || _.lisCr;
 }
@@ -686,11 +683,11 @@ const qualityLevels = {
 async function getMediaSource(musicItem, quality) {
   const res = (
     await axios_1.default.get(
-      `https://api.ikunshare.com/url?source=mg&songId=${musicItem.id}&quality=${qualityLevels[quality]}`,
+      `https://api.ikunshare.com/url?source=mg&songId=${musicItem.copyrightId}&quality=${qualityLevels[quality]}`,
       {
-        "headers": {
-          "X-Request-Key": "public_source"
-        }
+        headers: {
+          "X-Request-Key": "public_source",
+        },
       }
     )
   ).data;
@@ -701,7 +698,7 @@ async function getMediaSource(musicItem, quality) {
 module.exports = {
   platform: "咪咕音乐",
   author: "ikun0014",
-  version: "0.1.1",
+  version: "0.1.2",
   appVersion: ">0.1.0-alpha.0",
   hints: {
     importMusicSheet: [
@@ -710,7 +707,7 @@ module.exports = {
       "导入时间和歌单大小有关，请耐心等待",
     ],
   },
-  primaryKey: ["id", "copyrightId"],
+  primaryKey: ["copyrightId"],
   cacheControl: "cache",
   srcUrl: "https://mf.ikunshare.com/mg/index.js",
   supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],

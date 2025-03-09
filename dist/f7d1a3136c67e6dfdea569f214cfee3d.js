@@ -586,7 +586,7 @@ async function getMusicSheetInfo(sheet, page) {
 module.exports = {
   platform: "网易云音乐",
   author: "ikun0014",
-  version: "0.1.1",
+  version: "0.1.2",
   appVersion: ">0.1.0-alpha.0",
   srcUrl: "https://mf.ikunshare.com/wy/index.js",
   cacheControl: "no-store",

@@ -489,7 +489,7 @@ async function importMusicSheet(urlLike) {
 }
 module.exports = {
   platform: "酷狗音乐",
-  version: "0.1.1",
+  version: "0.1.2",
   author: "ikun0014",
   appVersion: ">0.1.0-alpha.0",
   srcUrl: "https://mf.ikunshare.com/kg/index.js",
