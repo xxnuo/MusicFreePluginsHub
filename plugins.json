@@ -16,6 +16,11 @@
       "version": "0.1.5"
     },
     {
+      "name": "酷我",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/kuwo\/index.js",
+      "version": "0.1.7"
+    },
+    {
       "name": "猫耳FM",
       "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/maoerfm\/index.js",
       "version": "0.1.4"
@@ -44,6 +49,11 @@
       "name": "全民K歌",
       "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/qmkg\/index.js",
       "version": "0.1.1"
+    },
+    {
+      "name": "QQ音乐",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/qq\/index.js",
+      "version": "0.2.2-alpha.3"
     },
     {
       "name": "喜马拉雅",
