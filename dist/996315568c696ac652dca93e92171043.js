@@ -678,7 +678,7 @@ const qualityLevels = {
   low: "128k",
   standard: "320k",
   high: "flac",
-  super: "flac24bit",
+  super: "hires",
 };
 async function getMediaSource(musicItem, quality) {
   const res = (
@@ -698,7 +698,7 @@ async function getMediaSource(musicItem, quality) {
 module.exports = {
   platform: "咪咕音乐",
   author: "ikun0014",
-  version: "0.1.2",
+  version: "0.1.3",
   appVersion: ">0.1.0-alpha.0",
   hints: {
     importMusicSheet: [

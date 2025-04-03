@@ -443,7 +443,7 @@ const qualityLevels = {
   low: "128k",
   standard: "320k",
   high: "flac",
-  super: "flac24bit",
+  super: "hires",
 };
 async function getMediaSource(musicItem, quality) {
   const res = (
@@ -586,7 +586,7 @@ async function getMusicSheetInfo(sheet, page) {
 module.exports = {
   platform: "网易云音乐",
   author: "ikun0014",
-  version: "0.1.2",
+  version: "0.1.3",
   appVersion: ">0.1.0-alpha.0",
   srcUrl: "https://mf.ikunshare.com/wy/index.js",
   cacheControl: "no-store",

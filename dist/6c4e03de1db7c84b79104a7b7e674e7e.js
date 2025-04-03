@@ -226,7 +226,7 @@ const qualityLevels = {
   low: "128k",
   standard: "320k",
   high: "flac",
-  super: "flac24bit",
+  super: "hires",
 };
 async function getMediaSource(musicItem, quality) {
   const res = (
@@ -489,7 +489,7 @@ async function importMusicSheet(urlLike) {
 }
 module.exports = {
   platform: "酷狗音乐",
-  version: "0.1.2",
+  version: "0.1.3",
   author: "ikun0014",
   appVersion: ">0.1.0-alpha.0",
   srcUrl: "https://mf.ikunshare.com/kg/index.js",

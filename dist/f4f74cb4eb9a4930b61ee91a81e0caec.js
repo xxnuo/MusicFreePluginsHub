@@ -57,7 +57,7 @@ async function getLyric(musicItem) {
 module.exports = {
   platform: "酷歌词",
   author: "QQ频道@LY+",
-  version: "0.1.2",
+  version: "0.1.3",
   cacheControl: "no-store",
   supportedSearchType: ["lyric"],
   search,
