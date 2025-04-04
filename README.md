@@ -25,7 +25,7 @@ https://musicfreepluginshub.2020818.xyz/plugins.json
 - Actions 可以手动触发，或自动执行，生成 plugins.json 文件。
 - 在 `Cloudflare Pages`、`Vercel`、`GitHub Pages`、`Netlify` 等平台导入部署仓库后可直接获取 `plugins.json` 的链接。可绑定自定义域名，以便在国内访问。
 
-## 交流群
+## 防失联交流群
 人太多需要手动拉进群，+v
 
 wechat:x-xnuo
