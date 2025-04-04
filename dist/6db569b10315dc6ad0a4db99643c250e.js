@@ -400,7 +400,7 @@ const $28c810e89c2349b3$var$pluginInstance = {
     platform: "小枸音乐",
     author: "SoEasy同学",
     version: "0.0.3",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/6db569b10315dc6ad0a4db99643c250e.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaogou.js",
     cacheControl: "no-cache",
     primaryKey: [
         "id",

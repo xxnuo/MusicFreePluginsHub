@@ -247,7 +247,7 @@ const $cfd4b261cce32605$var$pluginInstance = {
     platform: "6yueting",
     version: "0.1.5",
     author: "SoEasy同学",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/93a11730408bf308606ddabeaa1fe941.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/6yueting.js",
     cacheControl: "no-cache",
     supportedSearchType: [
         "music",

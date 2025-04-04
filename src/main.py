@@ -7,7 +7,7 @@ import hashlib
 
 # CDN
 CDN_URL = "https://musicfreepluginshub.2020818.xyz/"
-USE_CDN = True
+USE_CDN = False
 VERSION = "0.2.0"
 
 # 定义路径常量

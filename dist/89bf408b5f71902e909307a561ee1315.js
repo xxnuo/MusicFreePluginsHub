@@ -546,7 +546,7 @@ module.exports = {
     version: "0.2.2",
     author: "猫头猫",
     cacheControl: "no-cache",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/89bf408b5f71902e909307a561ee1315.js",
+    srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
     primaryKey: ["id", "aid", "bvid", "cid"],
     hints: {
         importMusicSheet: [

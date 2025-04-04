@@ -112,7 +112,7 @@ const $05ed36bfbcd28011$var$pluginInstance = {
     platform: "果核音乐",
     version: "0.0.1",
     author: "SoEasy同学",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/2fcd93af3525f48024a01be210dd5ab4.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/ghyinyue.js",
     cacheControl: "no-cache",
     supportedSearchType: [
         "music"

@@ -504,7 +504,7 @@ const $4e63e094b4590b2b$var$pluginInstance = {
     platform: "小蜗音乐",
     author: "SoEasy同学",
     version: "0.0.3",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/292415ca8fbabfa027fb0b55bf43fd05.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaowo.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [

@@ -588,7 +588,7 @@ module.exports = {
   author: "ikun0014",
   version: "0.1.3",
   appVersion: ">0.1.0-alpha.0",
-  srcUrl: "https://musicfreepluginshub.2020818.xyz/f7d1a3136c67e6dfdea569f214cfee3d.js",
+  srcUrl: "https://mf.ikunshare.com/wy/index.js",
   cacheControl: "no-store",
   hints: {
     importMusicSheet: [

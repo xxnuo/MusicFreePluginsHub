@@ -492,7 +492,7 @@ module.exports = {
   version: "0.1.3",
   author: "ikun0014",
   appVersion: ">0.1.0-alpha.0",
-  srcUrl: "https://musicfreepluginshub.2020818.xyz/6c4e03de1db7c84b79104a7b7e674e7e.js",
+  srcUrl: "https://mf.ikunshare.com/kg/index.js",
   cacheControl: "no-cache",
   description: "",
   primaryKey: ["id", "album_id", "album_audio_id"],

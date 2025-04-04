@@ -463,7 +463,7 @@ const $d25ff3d008f9e7e0$var$pluginInstance = {
     platform: "小秋音乐",
     author: "SoEasy同学",
     version: "0.0.3",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/cdf10b110435c7e5979906706a9480c0.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoqiu.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [

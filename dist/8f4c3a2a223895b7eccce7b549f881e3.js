@@ -163,7 +163,7 @@ const $f143b11fc67a70bd$var$pluginInstance = {
     platform: "歌曲宝",
     version: "0.0.5",
     author: "SoEasy同学",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/8f4c3a2a223895b7eccce7b549f881e3.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
     cacheControl: "no-cache",
     supportedSearchType: [
         "music"

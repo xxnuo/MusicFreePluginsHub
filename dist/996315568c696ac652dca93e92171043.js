@@ -709,7 +709,7 @@ module.exports = {
   },
   primaryKey: ["copyrightId"],
   cacheControl: "cache",
-  srcUrl: "https://musicfreepluginshub.2020818.xyz/996315568c696ac652dca93e92171043.js",
+  srcUrl: "https://mf.ikunshare.com/mg/index.js",
   supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],
   getMediaSource,
   async search(query, page, type) {

@@ -189,7 +189,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.0.1",
     supportedSearchType: ["music"],
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/4191604952f19f299cae00d867036179.js",
+    srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
     cacheControl: "no-cache",
     search,
     getMediaSource,

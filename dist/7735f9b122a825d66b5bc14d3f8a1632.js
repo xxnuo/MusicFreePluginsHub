@@ -180,7 +180,7 @@ module.exports = {
     author: '猫头猫',
     version: "0.1.4",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/7735f9b122a825d66b5bc14d3f8a1632.js",
+    srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/maoerfm/index.js",
     cacheControl: "no-cache",
     supportedSearchType: ["music", "album",],
     async search(query, page, type) {

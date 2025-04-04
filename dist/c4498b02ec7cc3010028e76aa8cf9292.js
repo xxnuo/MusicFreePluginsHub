@@ -206,7 +206,7 @@ module.exports = {
     platform: "\u7F51\u6613\u4E91\u7535\u53F0",
     author: "\u5495\u5495mur",
     version: "0.0.2",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/c4498b02ec7cc3010028e76aa8cf9292.js",
+    srcUrl: "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
     cacheControl: "no-store",
     supportedSearchType: [
         "album",

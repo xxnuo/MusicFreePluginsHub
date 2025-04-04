@@ -448,7 +448,7 @@ module.exports = {
     version: "0.0.2",
     author: '猫头猫',
     primaryKey: ["id", "url_slug"],
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/763db2e9286a7826657fb2b88466cfc7.js",
+    srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/audiomack/index.js",
     cacheControl: "no-cache",
     supportedSearchType: ['music', 'album', 'sheet', 'artist'],
     async search(query, page, type) {

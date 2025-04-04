@@ -152,7 +152,7 @@ module.exports = {
     platform: "快手",
     version: "0.0.2",
     author: '猫头猫',
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/49f2e338273dc5d6701f6cb10aefee3f.js",
+    srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
     cacheControl: "no-cache",
     supportedSearchType: ["music"],
     async search(query, page, type) {

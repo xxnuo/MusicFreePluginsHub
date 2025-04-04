@@ -594,7 +594,7 @@ const $c33d4cd85dcec6e6$var$pluginInstance = {
         "copyrightId"
     ],
     cacheControl: "cache",
-    srcUrl: "https://musicfreepluginshub.2020818.xyz/2a5dd624514f8f3f7897a8c1289a65de.js",
+    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaomi.js",
     supportedSearchType: [
         "music",
         "album",
