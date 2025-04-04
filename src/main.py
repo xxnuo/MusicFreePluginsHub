@@ -107,7 +107,7 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 # 处理重名
                 if name in name_count:
                     name_count[name] += 1
-                    new_plugin["name"] = f"{name} ({name_count[name]})"
+                    new_plugin["name"] = f"{name}_{name_count[name]}"
                 else:
                     name_count[name] = 0
                     new_plugin["name"] = name
