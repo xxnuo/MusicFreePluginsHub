@@ -5,6 +5,11 @@ from loguru import logger
 from httpx import AsyncClient
 import hashlib
 
+# CDN
+CDN_URL = "https://musicfreepluginshub.2020818.xyz/"
+USE_CDN = True
+VERSION = "0.2.0"
+
 # 定义路径常量
 DATA_DIR = Path(__file__).parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -18,7 +23,7 @@ DIST_JSON_PATH = DIST_DIR / "plugins.json"
 MAX_RETRIES = 3
 RETRY_DELAY = 1
 REQUEST_TIMEOUT = 10.0
-
+        
 
 async def fetch_sub_plugins(url: str, client: AsyncClient) -> list:
     """从订阅源获取单个插件列表
@@ -210,7 +215,7 @@ async def main():
         logger.info(f"成功验证 {len(valid_plugins)} 个插件")
 
     # 3. 保存结果
-    if await save_results({"plugins": valid_plugins}):
+    if await save_results({"desc": VERSION, "plugins": valid_plugins}):
         logger.success(f"任务完成! 共更新 {len(valid_plugins)} 个插件")
 
 
