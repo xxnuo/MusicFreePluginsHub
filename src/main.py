@@ -85,10 +85,20 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 response = await client.get(url, timeout=REQUEST_TIMEOUT)
                 response.raise_for_status()
 
-                # 保存插件文件
+                # 计算 MD5
                 md5 = hashlib.md5(url.encode("utf-8")).hexdigest()
+                
+                # 处理 JS 文件内容，替换原始 URL 为 CDN URL
+                content = response.text
+                if USE_CDN:
+                    # 替换整个原始 GitHub URL 为 CDN URL
+                    original_url = url.replace('\\', '')  # 处理可能存在的转义字符
+                    cdn_url = f"{CDN_URL}{md5}.js"
+                    content = content.replace(original_url, cdn_url)
+
+                # 保存处理后的插件文件
                 output_path = DIST_DIR / f"{md5}.js"
-                output_path.write_bytes(response.content)
+                output_path.write_text(content, encoding='utf-8')
 
                 # 处理插件信息
                 new_plugin = plugin.copy()
@@ -101,6 +111,10 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 else:
                     name_count[name] = 0
                     new_plugin["name"] = name
+
+                # 使用 CDN 替换原始 URL
+                if USE_CDN:
+                    new_plugin["url"] = f"{CDN_URL}{md5}.js"
 
                 logger.success(f"插件 {new_plugin['name']} 下载成功")
                 return True, new_plugin

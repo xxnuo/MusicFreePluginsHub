@@ -420,7 +420,7 @@ const $71db8672df30ab6c$var$pluginInstance = {
     platform: "书音FM",
     version: "0.3.6",
     author: "SoEasy同学",
-    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/shuyinfm.js",
+    srcUrl: "https://musicfreepluginshub.2020818.xyz/a2c44d99dd3ff1de07f76259d6ef1858.js",
     cacheControl: "no-cache",
     supportedSearchType: [
         "album",

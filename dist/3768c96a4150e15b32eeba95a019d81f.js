@@ -272,7 +272,7 @@ const $fb42a3116a5ee582$var$pluginInstance = {
     platform: "爱听",
     version: "0.1.0",
     author: "SoEasy同学",
-    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/at.js",
+    srcUrl: "https://musicfreepluginshub.2020818.xyz/3768c96a4150e15b32eeba95a019d81f.js",
     cacheControl: "no-cache",
     supportedSearchType: [
         "music",

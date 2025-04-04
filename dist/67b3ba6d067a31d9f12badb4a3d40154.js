@@ -320,7 +320,7 @@ const $89bf7938ddf8e249$var$pluginInstance = {
     platform: "种子",
     version: "0.1.0",
     author: "SoEasy同学",
-    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/zz.js",
+    srcUrl: "https://musicfreepluginshub.2020818.xyz/67b3ba6d067a31d9f12badb4a3d40154.js",
     supportedSearchType: [
         "music",
         "album",

@@ -545,7 +545,7 @@ const $69c13ef3ab1c1f3e$var$pluginInstance = {
     platform: "小芸音乐",
     author: "SoEasy同学",
     version: "0.0.3",
-    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoyun.js",
+    srcUrl: "https://musicfreepluginshub.2020818.xyz/db53f4f10cbdb85d14b8bf490e3401f0.js",
     cacheControl: "no-store",
     hints: {
         importMusicSheet: [

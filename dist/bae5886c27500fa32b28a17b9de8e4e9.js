@@ -41,7 +41,7 @@ async function getLyric(musicItem) {
 module.exports = {
     platform: "歌词千寻",
     version: "0.0.0",
-    srcUrl: 'https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js',
+    srcUrl: 'https://musicfreepluginshub.2020818.xyz/bae5886c27500fa32b28a17b9de8e4e9.js',
     cacheControl: "no-store",
     supportedSearchType: ['lyric'],
     search,

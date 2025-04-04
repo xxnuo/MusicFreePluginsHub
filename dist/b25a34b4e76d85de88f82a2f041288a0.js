@@ -338,7 +338,7 @@ const $34cadbb4fc0ee347$var$pluginInstance = {
     platform: "5sing",
     version: "0.0.3",
     author: "SoEasy同学",
-    srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/5sing.js",
+    srcUrl: "https://musicfreepluginshub.2020818.xyz/b25a34b4e76d85de88f82a2f041288a0.js",
     cacheControl: "no-cache",
     supportedSearchType: [
         "music",
