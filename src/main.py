@@ -205,6 +205,11 @@ async def main():
     """主函数"""
     logger.info("开始执行插件更新任务...")
 
+    # 清空 dist 目录中的 JS 文件
+    for js_file in DIST_DIR.glob("*.js"):
+        js_file.unlink()
+    logger.info("已清空 dist 目录中的 JS 文件")
+
     # 1. 加载配置
     origins = await load_origins()
     if not origins:
