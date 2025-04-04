@@ -1,13 +1,23 @@
 {
   "plugins": [
     {
-      "name": "5sing",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/5sing.js",
-      "version": "0.0.3"
-    },
-    {
       "name": "Audiomack",
       "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/audiomack/index.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "歌词网",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciwang/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
+      "version": "0.2.2"
+    },
+    {
+      "name": "快手",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
       "version": "0.0.2"
     },
     {
@@ -16,89 +26,9 @@
       "version": "0.0.0"
     },
     {
-      "name": "WebDAV",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/webdav/index.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "Youtube",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
-      "version": "0.0.1"
-    },
-    {
-      "name": "bilibili",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
-      "version": "0.2.2"
-    },
-    {
       "name": "suno",
       "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/suno/index.js",
       "version": "0.0.0"
-    },
-    {
-      "name": "udio",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/udio/index.js",
-      "version": "0.0.0"
-    },
-    {
-      "name": "书音FM",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/shuyinfm.js",
-      "version": "0.3.6"
-    },
-    {
-      "name": "六月听书",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/6yueting.js",
-      "version": "0.1.5"
-    },
-    {
-      "name": "咪咕音乐",
-      "url": "https://mf.ikunshare.com/mg/index.js",
-      "version": "0.1.3"
-    },
-    {
-      "name": "好听轻音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/htqyy.js",
-      "version": "0.1.0"
-    },
-    {
-      "name": "小枸音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaogou.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "小秋音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoqiu.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "小芸音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoyun.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "小蜗音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaowo.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "小蜜音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaomi.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "快手",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
-      "version": "0.0.2"
-    },
-    {
-      "name": "果核音乐",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/ghyinyue.js",
-      "version": "0.0.1"
-    },
-    {
-      "name": "歌曲宝",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
-      "version": "0.0.5"
     },
     {
       "name": "歌词千寻",
@@ -106,33 +36,43 @@
       "version": "0.0.0"
     },
     {
-      "name": "歌词网",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciwang/index.js",
-      "version": "0.0.0"
-    },
-    {
-      "name": "爱听",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/at.js",
-      "version": "0.0.6"
-    },
-    {
       "name": "猫耳FM",
       "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/maoerfm/index.js",
       "version": "0.1.4"
     },
     {
-      "name": "种子",
-      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/zz.js",
-      "version": "0.1.0"
+      "name": "WebDAV",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/webdav/index.js",
+      "version": "0.0.2"
     },
     {
-      "name": "网易云电台",
-      "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
-      "version": "0.0.2"
+      "name": "udio",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/udio/index.js",
+      "version": "0.0.0"
+    },
+    {
+      "name": "音悦台",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js",
+      "version": "0.0.1"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
+      "version": "0.0.1"
     },
     {
       "name": "网易云音乐",
       "url": "https://mf.ikunshare.com/wy/index.js",
+      "version": "0.1.3"
+    },
+    {
+      "name": "咪咕音乐",
+      "url": "https://mf.ikunshare.com/mg/index.js",
+      "version": "0.1.3"
+    },
+    {
+      "name": "酷狗音乐",
+      "url": "https://mf.ikunshare.com/kg/index.js",
       "version": "0.1.3"
     },
     {
@@ -146,19 +86,114 @@
       "version": "0.1.3"
     },
     {
+      "name": "歌曲宝",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
+      "version": "0.0.5"
+    },
+    {
+      "name": "书音FM",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/shuyinfm.js",
+      "version": "0.3.6"
+    },
+    {
+      "name": "六月听书",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/6yueting.js",
+      "version": "0.1.5"
+    },
+    {
+      "name": "果核音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/ghyinyue.js",
+      "version": "0.0.1"
+    },
+    {
+      "name": "5sing",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/5sing.js",
+      "version": "0.0.3"
+    },
+    {
+      "name": "好听轻音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/htqyy.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "爱听",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/at.js",
+      "version": "0.0.6"
+    },
+    {
+      "name": "种子",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/zz.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "小秋音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoqiu.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "小枸音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaogou.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "小芸音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaoyun.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "小蜜音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaomi.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "小蜗音乐",
+      "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/xiaowo.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "网易云电台",
+      "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
+      "version": "0.0.2"
+    },
+    {
       "name": "酷狗",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/kugou.js",
       "version": "0.1.4"
     },
     {
-      "name": "酷狗音乐",
-      "url": "https://mf.ikunshare.com/kg/index.js",
-      "version": "0.1.3"
+      "name": "网易",
+      "url": "http://music.haitangw.net/cqapi/wy.js",
+      "version": "0.1.0"
     },
     {
-      "name": "音悦台",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js",
-      "version": "0.0.1"
+      "name": "酷我",
+      "url": "http://music.haitangw.net/cqapi/kw.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "酷我 (1)",
+      "url": "http://music.haitangw.net/cqapi/kg.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "qq",
+      "url": "http://music.haitangw.net/cqapi/qq.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "mg",
+      "url": "http://music.haitangw.net/cqapi/xiaomi.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "W电台",
+      "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
+      "version": "0.0.2"
+    },
+    {
+      "name": "W音乐",
+      "url": "https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/wy.js",
+      "version": "0.2.3"
     }
   ]
 }
