@@ -103,6 +103,9 @@ async def fetch_plugins(plugins: list, client: AsyncClient) -> list:
                 # 处理插件信息
                 new_plugin = plugin.copy()
                 name = plugin.get("name", url)
+                
+                # 替换敏感词
+                name = name.replace("网易云", "W").replace("QQ", "T")
 
                 # 处理重名
                 if name in name_count:
