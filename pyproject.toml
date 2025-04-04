@@ -1,6 +1,6 @@
 [project]
 name = "MusicFreePluginsHub"
-version = "0.1.0"
+version = "0.2.0"
 description = "MusicFree 插件订阅聚合器 - 订阅全网"
 authors = [
     { name = "xxnuo", email = "pip@2020818.xyz" },
