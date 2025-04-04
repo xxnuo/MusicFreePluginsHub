@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.13"
 
 [[package]]
@@ -281,7 +282,7 @@ wheels = [
 
 [[package]]
 name = "musicfreepluginshub"
-version = "0.1.0"
+version = "0.2.0"
 source = { virtual = "." }
 dependencies = [
     { name = "httpx" },
