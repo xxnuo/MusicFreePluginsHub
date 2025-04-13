@@ -62,7 +62,7 @@
       "version": "0.0.1"
     },
     {
-      "name": "W音乐_1",
+      "name": "W音乐",
       "url": "https://mf.ikunshare.com/wy/index.js",
       "version": "0.1.3"
     },
@@ -152,7 +152,7 @@
       "version": "0.0.2"
     },
     {
-      "name": "W电台",
+      "name": "W电台_1",
       "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
@@ -187,12 +187,12 @@
       "version": "0.1.0"
     },
     {
-      "name": "W电台_1",
+      "name": "W电台",
       "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
     {
-      "name": "W音乐",
+      "name": "W音乐_1",
       "url": "https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/wy.js",
       "version": "0.2.3"
     }
