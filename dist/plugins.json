@@ -62,31 +62,6 @@
       "version": "0.0.1"
     },
     {
-      "name": "W音乐_1",
-      "url": "https://mf.ikunshare.com/wy/index.js",
-      "version": "0.1.3"
-    },
-    {
-      "name": "咪咕音乐",
-      "url": "https://mf.ikunshare.com/mg/index.js",
-      "version": "0.1.3"
-    },
-    {
-      "name": "酷狗音乐",
-      "url": "https://mf.ikunshare.com/kg/index.js",
-      "version": "0.1.3"
-    },
-    {
-      "name": "酷我音乐",
-      "url": "https://mf.ikunshare.com/kw/index.js",
-      "version": "0.1.3"
-    },
-    {
-      "name": "酷歌词",
-      "url": "https://mf.ikunshare.com/klrc/index.js",
-      "version": "0.1.3"
-    },
-    {
       "name": "歌曲宝",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
       "version": "0.0.5"
@@ -152,7 +127,7 @@
       "version": "0.0.2"
     },
     {
-      "name": "W电台",
+      "name": "W电台_1",
       "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
@@ -187,7 +162,7 @@
       "version": "0.1.0"
     },
     {
-      "name": "W电台_1",
+      "name": "W电台",
       "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
