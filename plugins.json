@@ -36,6 +36,41 @@
       "version": "0.2.2"
     },
     {
+      "name": "网易云",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/netease\/index.js",
+      "version": "0.2.3"
+    },
+    {
+      "name": "千千音乐",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/qianqian\/index.js",
+      "version": "0.1.3"
+    },
+    {
+      "name": "全民K歌",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/qmkg\/index.js",
+      "version": "0.1.1"
+    },
+    {
+      "name": "QQ音乐",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/qq\/index.js",
+      "version": "0.2.2-alpha.3"
+    },
+    {
+      "name": "喜马拉雅",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/xmly\/index.js",
+      "version": "0.1.6"
+    },
+    {
+      "name": "音悦台",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/yinyuetai\/index.js",
+      "version": "0.0.1"
+    },
+    {
+      "name": "Youtube",
+      "url": "https:\/\/gitee.com\/crisy\/music-free-plugins\/raw\/release\/dist\/youtube\/index.js",
+      "version": "0.0.1"
+    },
+    {
       "name": "歌词网",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciwang\/index.js",
       "version": "0.0.0"
@@ -69,16 +104,6 @@
       "name": "udio",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/udio\/index.js",
       "version": "0.0.0"
-    },
-    {
-      "name": "音悦台",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/yinyuetai\/index.js",
-      "version": "0.0.1"
-    },
-    {
-      "name": "Youtube",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/youtube\/index.js",
-      "version": "0.0.1"
     }
   ]
 }
