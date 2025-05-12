@@ -1,9 +1,9 @@
 {
   "plugins": [
     {
-      "name": "歌词网",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciwang\/index.js",
-      "version": "0.0.0"
+      "name": "Audiomack",
+      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/audiomack\/index.js",
+      "version": "0.0.2"
     },
     {
       "name": "bilibili",
@@ -31,19 +31,9 @@
       "version": "0.0.0"
     },
     {
-      "name": "猫耳FM",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/maoerfm\/index.js",
-      "version": "0.1.4"
-    },
-    {
       "name": "WebDAV",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/webdav\/index.js",
       "version": "0.0.2"
-    },
-    {
-      "name": "udio",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/udio\/index.js",
-      "version": "0.0.0"
     },
     {
       "name": "音悦台",
