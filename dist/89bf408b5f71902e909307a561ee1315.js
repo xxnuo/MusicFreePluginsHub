@@ -265,7 +265,6 @@ async function getArtistWorks(artistItem, page, type) {
         referer: `https://space.bilibili.com/${artistItem.id}/video`,
     };
     await getCookie();
-    const w_webid = await getWWebId(artistItem.id);
     const now = Math.round(Date.now() / 1e3);
     const params = {
         mid: artistItem.id,
@@ -281,7 +280,6 @@ async function getArtistWorks(artistItem, page, type) {
         dm_img_str: "V2ViR0wgMS4wIChPcGVuR0wgRVMgMi4wIENocm9taXVtKQ",
         dm_cover_img_str: "QU5HTEUgKE5WSURJQSwgTlZJRElBIEdlRm9yY2UgR1RYIDE2NTAgKDB4MDAwMDFGOTEpIERpcmVjdDNEMTEgdnNfNV8wIHBzXzVfMCwgRDNEMTEpR29vZ2xlIEluYy4gKE5WSURJQS",
         dm_img_inter: '{"ds":[],"wh":[0,0,0],"of":[0,0,0]}',
-        w_webid: w_webid,
         wts: now.toString(),
     };
     const w_rid = await getRid(params);
@@ -543,7 +541,7 @@ async function getMusicComments(musicItem) {
 module.exports = {
     platform: "bilibili",
     appVersion: ">=0.0",
-    version: "0.2.2",
+    version: "0.2.3",
     author: "猫头猫",
     cacheControl: "no-cache",
     srcUrl: "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",

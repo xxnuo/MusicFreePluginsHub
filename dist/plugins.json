@@ -12,14 +12,9 @@
       "version": "0.0.0"
     },
     {
-      "name": "bilibili",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
-      "version": "0.2.2"
-    },
-    {
-      "name": "快手",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
-      "version": "0.0.2"
+      "name": "歌词千寻",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js",
+      "version": "0.0.0"
     },
     {
       "name": "Navidrome",
@@ -32,8 +27,8 @@
       "version": "0.0.0"
     },
     {
-      "name": "歌词千寻",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/geciqianxun/index.js",
+      "name": "udio",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/udio/index.js",
       "version": "0.0.0"
     },
     {
@@ -42,14 +37,9 @@
       "version": "0.1.4"
     },
     {
-      "name": "WebDAV",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/webdav/index.js",
+      "name": "快手",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kuaishou/index.js",
       "version": "0.0.2"
-    },
-    {
-      "name": "udio",
-      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/udio/index.js",
-      "version": "0.0.0"
     },
     {
       "name": "音悦台",
@@ -60,6 +50,16 @@
       "name": "Youtube",
       "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
       "version": "0.0.1"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
+      "version": "0.2.3"
+    },
+    {
+      "name": "WebDAV",
+      "url": "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/webdav/index.js",
+      "version": "0.0.2"
     },
     {
       "name": "歌曲宝",
@@ -142,12 +142,12 @@
       "version": "0.1.0"
     },
     {
-      "name": "酷我",
+      "name": "酷我_1",
       "url": "http://music.haitangw.net/cqapi/kw.js",
       "version": "0.1.0"
     },
     {
-      "name": "酷我_1",
+      "name": "酷我",
       "url": "http://music.haitangw.net/cqapi/kg.js",
       "version": "0.1.0"
     },
