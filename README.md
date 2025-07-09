@@ -26,6 +26,4 @@ https://musicfreepluginshub.2020818.xyz/plugins.json
 - 在 `Cloudflare Pages`、`Vercel`、`GitHub Pages`、`Netlify` 等平台导入部署仓库后可直接获取 `plugins.json` 的链接。可绑定自定义域名，以便在国内访问。
 
 ## 防失联交流群
-人太多需要手动拉进群，+v
-
-wechat:x-xnuo
+人太多需要手动拉进群，备注音乐交流，+v:x-xnuo
