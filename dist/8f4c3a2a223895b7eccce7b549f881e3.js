@@ -56,7 +56,12 @@ async function $f143b11fc67a70bd$var$getMediaSource(musicItem, quality) {
     let tempRes = (await (0, ($parcel$interopDefault($aeeUC$axios))).get(tempUrl, {
         timeout: 5000
     })).data;
-    const id = tempRes.match(/window.play_id = '(.*?)';/)[1];
+    let id = "";
+    const scriptContent = tempRes.match(/<script[^>]*>[\s\S]*?window\.appData\s*=\s*({.*?});[\s\S]*?<\/script>/i);
+    if (scriptContent && scriptContent[1]) {
+        const appData = JSON.parse(scriptContent[1]);
+        id = appData.play_id;
+    }
     let serchUrl = $f143b11fc67a70bd$export$5e032988b71f6158 + "/api/play-url";
     var body = "id=" + id;
     var headers = {
@@ -161,7 +166,7 @@ async function $f143b11fc67a70bd$var$getMusicSheetInfo(sheetItem, page) {
 }
 const $f143b11fc67a70bd$var$pluginInstance = {
     platform: "歌曲宝",
-    version: "0.0.5",
+    version: "0.0.6",
     author: "SoEasy同学",
     srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
     cacheControl: "no-cache",
@@ -175,7 +180,7 @@ const $f143b11fc67a70bd$var$pluginInstance = {
     getRecommendSheetsByTag: $f143b11fc67a70bd$var$getRecommendSheetsByTag,
     getMusicSheetInfo: $f143b11fc67a70bd$var$getMusicSheetInfo
 };
-(0, $19a45cbfdc5a1d1d$export$2e2bcd8739ae039)("江南", 1, "music").then((res)=>{
+(0, $19a45cbfdc5a1d1d$export$2e2bcd8739ae039)("明天会更好", 1, "music").then((res)=>{
     console.log(res);
     $f143b11fc67a70bd$var$getMediaSource(res.data[0], "standard").then((res)=>{
         console.log(res);
