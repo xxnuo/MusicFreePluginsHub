@@ -36,6 +36,17 @@ async function $5d6ef737067ff070$export$d48dc9c5c585da4(rawData) {
     }
     return list;
 }
+function $5d6ef737067ff070$export$ca2a7395555a320f(html) {
+    // 使用正则表达式提取变量
+    const fileHostMatch = html.match(/var fileHost\s*=\s*"([^"]+)"/);
+    const mp3Match = html.match(/var mp3\s*=\s*"([^"]+)"/);
+    if (!fileHostMatch || !mp3Match) throw new Error("无法提取播放链接");
+    const fileHost = fileHostMatch[1];
+    const mp3Path = mp3Match[1];
+    // 拼接播放链接
+    const playUrl = `${fileHost}${mp3Path}`;
+    return playUrl;
+}
 async function $5d6ef737067ff070$export$e73e0faebaff9d71(rawData) {
     const $ = $6tF58$cheerio.load(rawData);
     var rawPlayList = $("ul.musicList").find("li");
@@ -193,13 +204,18 @@ const $e419ee3fc9a9aada$export$838e2a576d4d6ff6 = {
     Referer: "http://www.htqyy.com/"
 };
 async function $e419ee3fc9a9aada$var$getMediaSource(musicItem, quality) {
+    const html = (await (0, ($parcel$interopDefault($6tF58$axios))).get($e419ee3fc9a9aada$export$5e032988b71f6158 + "/play/" + musicItem.id, {
+        headers: $e419ee3fc9a9aada$export$838e2a576d4d6ff6
+    })).data;
+    const url = (0, $5d6ef737067ff070$export$ca2a7395555a320f)(html);
     return {
-        url: "http://f5.htqyy.com/play9/" + musicItem.id + "/mp3/8",
+        // url: "http://s1.htqyy.com/play9/" + musicItem.id + "/mp3/0",
+        url: url,
         headers: {
             ...$e419ee3fc9a9aada$export$838e2a576d4d6ff6,
             Accept: "*/*",
             Connection: "keep-alive",
-            Host: "f5.htqyy.com",
+            Host: "s1.htqyy.com",
             Pragma: "no-cache",
             Range: "bytes=0-",
             "Cache-Control": "no-cache",
@@ -427,7 +443,7 @@ async function $e419ee3fc9a9aada$export$4adb7587a1eda30e(artistItem, page, type)
 }
 const $e419ee3fc9a9aada$var$pluginInstance = {
     platform: "好听轻音乐",
-    version: "0.1.0",
+    version: "0.1.2",
     author: "SoEasy同学",
     srcUrl: "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/htqyy.js",
     cacheControl: "no-cache",
