@@ -55,14 +55,18 @@ async function EAPI(path, json = {}) {
     } = env && env.getUserVariables();
     let music_a = String(music_u || "").match(/(MUSIC_[UA]=|^)([^;]+)/i)
     music_u = "os=pc; appver=9.0.25; " + (music_a ? "MUSIC_U=" + music_a[1] : "MUSIC_U=0034B44F9926BE9F1DD236BFB146E0FEB27696AD0802E2DD8D8062B036AD87CEEEB49D3141C00C103A8B110C944E6DFA2909843C098EB2515B513BC1AA0A7974866D653BEA27F81BF15700FB398CB95ABE260EDA0E71900A46296E8E9C069B6C6A3509D1FDE9F41DCEF55B07BEE0990EE13F8A461098536FF86896E76892551CC5B8C6C2063E605639146CEF24D2904725876F53C57B442653EA13ACFE9F2653B512A23BABE01680F2E953AF4BE1602B38B39B38B1D6D5C50E1F84AAF323D841A717DECDF9E0834EF1703C1D4A37DE7DB3AC49FA2A2C397B3418C34FAF191ED064E4F266D94A281B0C08947F339929EE1896350C37FE1E007D32BE2E0C1970DD2161A0D87F4A95CEA5B111289EC1064555149DBEEFBF73A1397D5B24EB5B429D81C8CBDB2A7DF61BECFAB3DBA3BD165167");
-    // console.log(music_u);
+    // console.log(path + music_u);
     return (await (0, axios_1.default)({
-        url: path.replace("/", "https://interface.music.163.com/e"),
+        url: path.replace("/", "https://interface3.music.163.com/e"),
         method: "POST",
         data: "params=" + params.toUpperCase(),
         headers: {
+            authority: "music.163.com",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36",
             Cookie: music_u
         },
+        xsrfCookieName: "XSRF-TOKEN",
+        withCredentials: true,
     })).data;
 }
 
@@ -203,12 +207,28 @@ function formatArtistItem(_) {
 
 // 获取歌曲详情
 async function getMusicInfo(musicItem) {
+    let isObj = !Array.isArray(musicItem);
+    if (isObj) {
+        musicItem = [musicItem];
+    }
+    musicItem = musicItem.map(_ => ({
+        id: _.id
+    }));
+
     let _ = await EAPI("/api/v3/song/detail", {
-        c: `[{"id":"${musicItem.id}"}]`
+        c: JSON.stringify(musicItem)
     });
-    let a = _.songs[0] || _.privileges[0];
-    a.privilege = _.privileges[0];
-    return formatMusicItem(a);
+
+    if (isObj) {
+        let a = _.songs[0] || _.privileges[0];
+        a.privilege = _.privileges[0];
+        return formatMusicItem(a);
+    } else {
+        return _.songs.map((__, i) => {
+            __.privilege = _.privileges[i];
+            return __;
+        });
+    }
 }
 
 // 获取歌单详情
@@ -217,9 +237,18 @@ async function getMusicSheetInfo(sheet, page = 1) {
         n: 99999,
         id: sheet.id
     })).playlist;
-    let list = _.tracks || [];
+    let isEnd, list = _.tracks || [];
+    if (list.length == _.trackCount || list.length == _.trackIds.length) {
+        isEnd = true;
+    } else {
+        let len1 = page * pageSize;
+        let len2 = len1 - pageSize;
+        let _ids = _.trackIds.slice(len2, len1);
+        isEnd = len1 >= _.trackCount;
+        list = await getMusicInfo(_ids);
+    }
     return {
-        isEnd: 99999 >= _.trackCount,
+        isEnd: isEnd,
         sheetItem: formatSheetItem(_),
         musicList: list.map(formatMusicItem)
     };
@@ -405,9 +434,33 @@ async function importMusicSheet(urlLike) {
     if (!id) {
         return false;
     }
-    return (await getMusicSheetInfo({
-        id
-    })).musicList;
+    
+    // 手动遍历歌单数据
+    let e = 0;
+    let page = 1;
+    let list = [];
+    do {
+        try {
+            let {
+                isEnd,
+                musicList
+            } = await getMusicSheetInfo({
+                id
+            }, page);
+            list.push(...musicList);
+            if (isEnd) {
+                break;
+            }
+        } catch (err) {
+            if (e > 3) {
+                break;
+            } else {
+                page--;
+                e++;
+            }
+        }
+    } while (page++);
+    return list;
 }
 
 
@@ -700,11 +753,11 @@ async function searchBase(query, page, type, v1 = "") {
 module.exports = {
     platform: "网易音乐",
     author: '反馈Q群@365976134',
-    version: "2025.09.13",
+    version: "2025.09.14",
     appVersion: ">0.4.0-alpha.0",
     srcUrl: "https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/wy.js",
     cacheControl: "no-store",
-    description: "## By: Thomas喲  \n#### 版本: 2025.09.13  \nJavaScript优化，细节调整  \n修复酷我渠道，增加解析  \n#### 音源重定向  \n支持的插件如下  \n网易云音乐, 小芸音乐, 简繁音乐, 元力WY  \n#### Bug反馈  \n[点我加入反馈群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=x8r6m0bYYon_pCgT0BRc1ohwZmkkY61Q&authKey=DpmUioCvx45WjRRBnbRT2DsJ7LL6DNY3uau%2BFKPgR%2FSKz4EgYqUjEU5tJNi%2BkNPl&noverify=0&group_code=365976134)  \n#### 支持作者  \n![支持作者](https://raw.githubusercontent.com/ThomasBy2025/hikerview/refs/heads/main/mm_facetoface_collect_qrcode_1757315185814.png)",
+    description: "## By: Thomas喲  \n#### 版本: 2025.09.14  \n修复歌单只能获取10首歌的bug，细节调整  \n修复酷我渠道，增加解析  \n#### 音源重定向  \n支持的插件如下  \n网易云音乐, 小芸音乐, 简繁音乐, 元力WY  \n#### Bug反馈  \n[点我加入反馈群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=x8r6m0bYYon_pCgT0BRc1ohwZmkkY61Q&authKey=DpmUioCvx45WjRRBnbRT2DsJ7LL6DNY3uau%2BFKPgR%2FSKz4EgYqUjEU5tJNi%2BkNPl&noverify=0&group_code=365976134)  \n#### 支持作者  \n![支持作者](https://raw.githubusercontent.com/ThomasBy2025/hikerview/refs/heads/main/mm_facetoface_collect_qrcode_1757315185814.png)",
     hints: {
         importMusicSheet: [
             "网易云：APP点击分享，然后复制链接",
