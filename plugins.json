@@ -11,34 +11,14 @@
       "version": "0.0.0"
     },
     {
-      "name": "歌词千寻",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/geciqianxun\/index.js",
-      "version": "0.0.0"
-    },
-    {
       "name": "Navidrome",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/navidrome\/index.js",
-      "version": "0.0.0"
-    },
-    {
-      "name": "suno",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/suno\/index.js",
       "version": "0.0.0"
     },
     {
       "name": "udio",
       "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/udio\/index.js",
       "version": "0.0.0"
-    },
-    {
-      "name": "猫耳FM",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/maoerfm\/index.js",
-      "version": "0.1.4"
-    },
-    {
-      "name": "快手",
-      "url": "https:\/\/gitee.com\/maotoumao\/MusicFreePlugins\/raw\/v0.1\/dist\/kuaishou\/index.js",
-      "version": "0.0.2"
     },
     {
       "name": "音悦台",
