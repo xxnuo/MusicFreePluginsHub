@@ -127,7 +127,7 @@
       "version": "0.0.2"
     },
     {
-      "name": "W电台",
+      "name": "W电台_1",
       "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
@@ -142,12 +142,12 @@
       "version": "0.1.0"
     },
     {
-      "name": "酷我_1",
+      "name": "酷我",
       "url": "http://music.haitangw.net/cqapi/kw.js",
       "version": "0.1.0"
     },
     {
-      "name": "酷我",
+      "name": "酷我_1",
       "url": "http://music.haitangw.net/cqapi/kg.js",
       "version": "0.1.0"
     },
@@ -162,7 +162,7 @@
       "version": "0.1.0"
     },
     {
-      "name": "W电台_1",
+      "name": "W电台",
       "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
