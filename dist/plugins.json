@@ -62,6 +62,31 @@
       "version": "0.0.2"
     },
     {
+      "name": "网易",
+      "url": "https://13413.kstore.vip/yuanli/wy.js",
+      "version": "1.1.0"
+    },
+    {
+      "name": "酷我",
+      "url": "https://13413.kstore.vip/yuanli/kw.js",
+      "version": "1.1.0"
+    },
+    {
+      "name": "酷gou",
+      "url": "https://13413.kstore.vip/yuanli/kg.js",
+      "version": "1.1.0"
+    },
+    {
+      "name": "qq",
+      "url": "https://13413.kstore.vip/yuanli/qq.js",
+      "version": "1.1.0"
+    },
+    {
+      "name": "mg",
+      "url": "https://13413.kstore.vip/yuanli/xiaomi.js",
+      "version": "1.1.0"
+    },
+    {
       "name": "歌曲宝",
       "url": "https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js",
       "version": "0.0.6"
@@ -137,39 +162,39 @@
       "version": "0.1.4"
     },
     {
-      "name": "网易",
-      "url": "http://music.haitangw.net/cqapi/wy.js",
-      "version": "0.1.0"
+      "name": "腾讯音乐",
+      "url": "http://51.195.241.253:8080/https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/tx.js",
+      "version": "2025.09.13"
     },
     {
-      "name": "酷我",
-      "url": "http://music.haitangw.net/cqapi/kw.js",
-      "version": "0.1.0"
+      "name": "网易音乐",
+      "url": "http://51.195.241.253:8080/https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/wy.js",
+      "version": "2025.09.14"
     },
     {
-      "name": "酷我_1",
-      "url": "http://music.haitangw.net/cqapi/kg.js",
-      "version": "0.1.0"
+      "name": "酷狗音乐",
+      "url": "http://51.195.241.253:8080/https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/kg.js",
+      "version": "2025.09.14"
     },
     {
-      "name": "qq",
-      "url": "http://music.haitangw.net/cqapi/qq.js",
-      "version": "0.1.0"
+      "name": "酷我音乐",
+      "url": "http://51.195.241.253:8080/https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/kw.js",
+      "version": "2025.09.16"
     },
     {
-      "name": "mg",
-      "url": "http://music.haitangw.net/cqapi/xiaomi.js",
-      "version": "0.1.0"
+      "name": "汽水音乐",
+      "url": "https://gitee.com/hongmengv5/musicfree/raw/master/qishui.js",
+      "version": "0.1.5"
+    },
+    {
+      "name": "GitCode",
+      "url": "http://51.195.241.253:8080/https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/git.js",
+      "version": "2025.08.26"
     },
     {
       "name": "W电台",
       "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
-    },
-    {
-      "name": "W音乐",
-      "url": "https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/wy.js",
-      "version": "0.2.3"
     }
   ]
 }
