@@ -162,6 +162,31 @@
       "version": "0.1.4"
     },
     {
+      "name": "网易_1",
+      "url": "http://music.haitangw.net/cqapi/wy.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "酷我_2",
+      "url": "http://music.haitangw.net/cqapi/kw.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "酷我_1",
+      "url": "http://music.haitangw.net/cqapi/kg.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "qq_1",
+      "url": "http://music.haitangw.net/cqapi/qq.js",
+      "version": "0.1.0"
+    },
+    {
+      "name": "mg_1",
+      "url": "http://music.haitangw.net/cqapi/xiaomi.js",
+      "version": "0.1.0"
+    },
+    {
       "name": "腾讯音乐",
       "url": "http://51.195.241.253:8080/https://raw.githubusercontent.com/ThomasBy2025/musicfree/refs/heads/main/plugins/tx.js",
       "version": "2025.09.13"
