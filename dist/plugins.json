@@ -64,7 +64,7 @@
     {
       "name": "网易",
       "url": "https://13413.kstore.vip/yuanli/wy.js",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "酷我",
@@ -79,7 +79,7 @@
     {
       "name": "qq",
       "url": "https://13413.kstore.vip/yuanli/qq.js",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "mg",
@@ -152,7 +152,7 @@
       "version": "0.0.2"
     },
     {
-      "name": "W电台",
+      "name": "W电台_1",
       "url": "https://fastly.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     },
@@ -167,12 +167,12 @@
       "version": "0.1.0"
     },
     {
-      "name": "酷我_1",
+      "name": "酷我_2",
       "url": "http://music.haitangw.net/cqapi/kw.js",
       "version": "0.1.0"
     },
     {
-      "name": "酷我_2",
+      "name": "酷我_1",
       "url": "http://music.haitangw.net/cqapi/kg.js",
       "version": "0.1.0"
     },
@@ -217,7 +217,7 @@
       "version": "2025.08.26"
     },
     {
-      "name": "W电台_1",
+      "name": "W电台",
       "url": "https://cdn.jsdelivr.net/gh/GuGuMur/MusicFreePlugin-NeteaseRadio@master/dist/plugin.js",
       "version": "0.0.2"
     }
