@@ -67,7 +67,7 @@
       "version": "1.1.1"
     },
     {
-      "name": "酷我",
+      "name": "酷我_2",
       "url": "https://13413.kstore.vip/yuanli/kw.js",
       "version": "1.1.0"
     },
@@ -77,7 +77,7 @@
       "version": "1.1.0"
     },
     {
-      "name": "qq",
+      "name": "qq_1",
       "url": "https://13413.kstore.vip/yuanli/qq.js",
       "version": "1.1.1"
     },
@@ -167,17 +167,17 @@
       "version": "0.1.0"
     },
     {
-      "name": "酷我_1",
+      "name": "酷我",
       "url": "http://music.haitangw.net/cqapi/kw.js",
       "version": "0.1.0"
     },
     {
-      "name": "酷我_2",
+      "name": "酷我_1",
       "url": "http://music.haitangw.net/cqapi/kg.js",
       "version": "0.1.0"
     },
     {
-      "name": "qq_1",
+      "name": "qq",
       "url": "http://music.haitangw.net/cqapi/qq.js",
       "version": "0.1.0"
     },
