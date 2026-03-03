@@ -10,6 +10,11 @@ CDN_URL = "https://musicfreepluginshub.2020818.xyz/"
 USE_CDN = False
 VERSION = "0.2.0"
 
+
+def get_version():
+    """Return the package version."""
+    return VERSION
+
 # 定义路径常量
 DATA_DIR = Path(__file__).parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
